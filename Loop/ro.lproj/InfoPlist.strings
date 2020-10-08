@@ -1,3 +1,6 @@
+/* Bundle display name */
+"CFBundleDisplayName" = "Loop";
+
 /* Bundle name */
 "CFBundleName" = "$(PRODUCT_NAME)";
 
@@ -7,8 +10,11 @@
 /* Privacy - Bluetooth Peripheral Usage Description */
 "NSBluetoothPeripheralUsageDescription" = "Bluetooth este folosit pentru a comunica cu pompa de insulină, precum și cu dispozitivele de monitorizare glicemică continuă.";
 
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "Camera foto este folosită pentru a scana codurile de bare ale dispozitivelor";
+
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Face ID este folosit la autentificarea pentru bolus.";
+"NSFaceIDUsageDescription" = "Face ID este utilizat pentru autentificarea la bolus și pentru salvarea modificărilor din setările terapiei.";
 
 /* Privacy - Health Share Usage Description */
 "NSHealthShareUsageDescription" = "Informațiile despre nutriție din baza de date Sănătate sunt folosite pentru a determina efectele glucozei. Informațiile despre glucoză din baza de date Sănătate sunt folosite pentru construirea de grafice și calcule de trend/momentum.";

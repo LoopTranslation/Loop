@@ -1,5 +1,14 @@
+/* Manage Notifications in Settings descriptive text */
+"\n            Critical Alerts will always play a sound and appear on the Lock screen even if your iPhone is muted or Do Not Disturb is on.\n            " = "\n            Kriittiset hälytykset toistavat aina äänen ja näkyvät lukitulla näytöllä, vaikka iPhone olisi mykistetty tai Älä häiritse -tilassa.\n            ";
+
+/* Manage Notifications in Settings descriptive text */
+"\n            Notifications appear on your Lock screen or pop up while you’re using other apps.\n            \n            Notifications give you important (appName) app information without requiring you to open the app.  You can customize when and how you want to receive these notifications.\n            " = "\n            Ilmoitukset näkyvät lukitulla näytöllä tai tulevat näkyviin, kun käytät muita sovelluksia\n            \n            Ilmoitukset antavat tärkeää (appName) -sovelluksen tietoa ilman, että avaat sovellusta. Voit mukauttaa milloin ja miten haluat vastaanottaa nämä ilmoitukset.\n            ";
+
 /* The string format appended to active insulin that describes pending insulin. (1: pending insulin) */
 " (pending: %@)" = "(odot.: %@)";
+
+/* No comment provided by engineer. */
+"--" = "--";
 
 /* The format for an active override preset. (1: preset symbol)(2: preset name) */
 "%@ %@" = "%1$@ %2$@";
@@ -16,11 +25,17 @@
 /* Format string for glucose target range. (1: Min target)(2: Max target)(3: glucose unit) */
 "%1$@ – %2$@ %3$@" = "%1$@ – %2$@ %3$@";
 
+/* Format string combining carb entry quantity and absorption time emoji */
+"%1$@ %2$@" = "%1$@ %2$@";
+
 /* Format string for carb ratio average. (1: value)(2: carb unit) */
 "%1$@ %2$@/U" = "%1$@ %2$@/U";
 
 /* Formats (1: carb start time) and (2: carb absorption duration) */
 "%1$@ + %2$@" = "%1$@ + %2$@";
+
+/* Message for alert shown when delivery status is uncertain. (1: app name) */
+"%1$@ is unable to communicate with your insulin pump. The app will continue trying to reach your pump, but insulin delivery information cannot be updated and no automation can continue.\nYou can wait several minutes to see if the issue resolves or tap the button below to learn more about other options." = "%1$@ ei pysty kommunikoimaan insuliinipumpun kanssa. Sovellus yrittää edelleen yhdistää pumppuun, mutta insuliininannostelun tietot eivät päivity, eikä automatiikka ole päällä.\nVoit odottaa muutaman minuutin nähdäksesi ratkeaako ongelma, tai voit napauttaa alla olevaa painiketta saadaksesi lisätietoja muista vaihtoehdoista.";
 
 /* Low reservoir alert format string. (1: Number of units remaining) */
 "%1$@ U left" = "%1$@ U jäljellä";
@@ -43,11 +58,17 @@
 /* Description of the prediction input effect for retrospective correction */
 "30 min comparison of glucose prediction vs actual, continued with decay over 60 min" = "30 min vertailu ennustetun ja todellisen glukoosin välillä, hiipuen 60 min kuluessa";
 
+/* Alert message for a manual glucose entry out of range error */
+"A manual glucose entry must be between %@ and %@" = "Syötetyn glukoosiarvon on oltava välillä %1$@ – %2$@";
+
 /* Subtitle of Fiasp preset */
 "A model based on the published absorption of Fiasp insulin." = "Perustuu Fiasp-insuliinin julkaistuun imeytymismalliin.";
 
 /* Subtitle of Rapid-Acting – Adult preset */
 "A model based on the published absorption of Humalog, Novolog, and Apidra insulin in adults." = "Perustuu Humalog-, Novorapid- ja Apidra-insuliinien julkaistuun imeytymismalliin aikuisilla.";
+
+/* Alert message for a missing pump error */
+"A pump must be configured before a bolus can be delivered." = "Pumppu on määritettävä, ennen kuin bolus voidaan annostella.";
 
 /* Title of the carb entry absorption time cell */
 "Absorption Time" = "Imeytymisaika";
@@ -60,6 +81,9 @@
 
 /* The string format describing active carbohydrates. (1: localized glucose value description) */
 "Active Carbohydrates: %@" = "Aktiivinen hiilihydraatti: %@";
+
+/* Title describing quantity of still-absorbing carbohydrates */
+"Active Carbs" = "Aktiivinen hiilihydraatti";
 
 /* The title of the Insulin On-Board graph */
 "Active Insulin" = "Aktiivinen insuliini";
@@ -74,12 +98,22 @@
    Title text for button to set up a CGM */
 "Add CGM" = "Lisää CGM";
 
-/* The label of the carb entry button */
+/* The label of the meal button */
 "Add Meal" = "Lisää ateria";
 
 /* Action sheet title selecting Pump
    Title text for button to set up a new pump */
 "Add Pump" = "Lisää pumppu";
+
+/* Title text for button to set up a service */
+"Add Service" = "Lisää palvelu";
+
+/* Alert Permissions button text
+   Notification & Critical Alert Permissions screen title */
+"Alert Permissions" = "Hälytysten käyttöoikeudet";
+
+/* The title of the section containing algorithm settings */
+"Algorithm Settings" = "Algoritmin asetukset";
 
 /* The title of the Amplitude service */
 "Amplitude" = "Amplitude";
@@ -87,14 +121,29 @@
 /* Subtitle of Rapid-Acting – Children preset */
 "An adjustment to the adult model based on empirical effects in children." = "Aikuisten mallista lapsille mukautettu empiirisiin vaikutuksiin perustuva malli.";
 
+/* Alert message for a carb entry persistence error */
+"An error occurred while trying to save your carb entry." = "Virhe hiilihydraattien tallennuksessa.";
+
+/* Alert message for a manual glucose entry persistence error */
+"An error occurred while trying to save your manual glucose entry." = "Virhe glukoosiarvon tallennuksessa.";
+
+/* Alert message when glucose data returns while on bolus screen */
+"An updated bolus recommendation is available." = "Päivitetty bolussuositus on saatavilla.";
+
 /* The title of the amplitude API key credential */
 "API Key" = "API-avain";
 
 /* The title of the nightscout API secret credential */
 "API Secret" = "API-salasana";
 
+/* No comment provided by engineer. */
+"Are you sure you want to delete all your %@ Data?\n(This action is not reversible)" = "Haluatko varmasti poistaa kaikki %@ tietosi?\n(Tämä toiminto ei ole palautettavissa)";
+
 /* Confirmation message for deleting a CGM */
 "Are you sure you want to delete this CGM?" = "Haluatko varmasti poistaa CGM:n?";
+
+/* Confirmation message for deleting a service */
+"Are you sure you want to delete this service?" = "Haluatko varmasti poistaa tämän palvelun?";
 
 /* Format fragment for a specific time */
 "at %@" = "klo %@";
@@ -109,13 +158,21 @@
    The title text for the basal rate schedule */
 "Basal Rates" = "Basaalitasot";
 
+/* Bluetooth off alert title */
+"Bluetooth Off Alert" = "Bluetooth ei ole käytössä -hälytys";
+
+/* Bluetooth unavailable alert title */
+"Bluetooth Unavailable Alert" = "Bluetooth ei ole käytettävissä -hälytys";
+
 /* The label of the bolus entry button
-   The notification title for a bolus failure
-   Title text for bolus screen (manual correction) */
+   The notification title for a bolus failure */
 "Bolus" = "Bolus";
 
 /* Alert title for an updated bolus recommendation */
 "Bolus Recommendation Updated" = "Bolussuositus päivitetty";
+
+/* Title for card displaying carb entry and bolus recommendation */
+"Bolus Summary" = "Bolusyhteenveto";
 
 /* The format string for bolus progress. (1: delivered volume)(2: total volume) */
 "Bolused %1$@ of %2$@" = "Bolus %1$@ / %2$@";
@@ -132,7 +189,8 @@
 /* Details for missing data error when carb effects are missing */
 "Carb effects" = "Hiilihydraattivaikutus";
 
-/* Back button text for bolus screen to return to carb entry screen */
+/* Back button text for bolus screen to return to carb entry screen
+   Label for carb entry row on bolus screen */
 "Carb Entry" = "Hiilihydraatit";
 
 /* The title of the carb ratios schedule screen
@@ -191,9 +249,11 @@
 /* Message when offering bolus recommendation even though bg is below range. (1: glucose value) */
 "Current glucose of %1$@ is below correction range." = "Nykyinen glukoosi %1$@ on korjausalueen alapuolella.";
 
-/* Name of custom override
-   The title of the cell indicating a generic temporary override is enabled */
+/* The title of the cell indicating a generic temporary override is enabled */
 "Custom Override" = "Mukautettu tilapäisasetus";
+
+/* The title of the cell indicating a generic custom preset is enabled */
+"Custom Preset" = "Mukautettu esiasetus";
 
 /* The title of the Loggly customer token credential */
 "Customer Token" = "Asiakastunniste";
@@ -201,20 +261,53 @@
 /* Title of the carb entry date picker cell */
 "Date" = "Aika";
 
+/* The short unit display string for decibles */
+"dB" = "dB";
+
+/* No comment provided by engineer. */
+"Delete" = "Poista";
+
+/* The title of the button to remove the credentials for a service */
+"Delete Account" = "Poista tili";
+
 /* Button title to delete CGM */
 "Delete CGM" = "Poista CGM";
 
-/* The button text to initiate a bolus */
+/* Button title to delete a service */
+"Delete Service" = "Poista palvelu";
+
+/* No comment provided by engineer. */
+"Delete Testing CGM Data" = "Poista testi-CGM:n tiedot";
+
+/* No comment provided by engineer. */
+"Delete Testing Data" = "Poista testitiedot";
+
+/* No comment provided by engineer. */
+"Delete Testing Pump Data" = "Poista testipumpun tiedot";
+
+/* Button text to deliver a bolus */
 "Deliver" = "Annostele";
 
 /* Title text for delivery limits */
 "Delivery Limits" = "Annostelurajat";
 
+/* Descriptive text for Therapy Settings */
+"Diabetes Treatment" = "Diabeteshoito";
+
 /* The action hint of the workout mode toggle button when enabled */
 "Disables" = "Poistaa käytöstä";
 
+/* Default alert dismissal */
+"Dismiss" = "Hylkää";
+
+/* No comment provided by engineer. */
+"Done" = "Valmis";
+
 /* The action hint of the workout mode toggle button when disabled */
 "Enables" = "Ottaa käyttöön";
+
+/* Button text to begin entering a bolus */
+"Enter Bolus" = "Anna bolus";
 
 /* The placeholder text instructing users to enter a suspend treshold */
 "Enter suspend threshold" = "Aseta pysäytysraja";
@@ -231,11 +324,23 @@
 /* The title of the alert describing a maximum bolus validation error */
 "Exceeds Maximum Bolus" = "Ylittää maksimiboluksen";
 
+/* The alert title for a resume error */
+"Failed to Resume Insulin Delivery" = "Insuliiniannostelun jatkaminen epäonnistui";
+
 /* Title of insulin model preset */
 "Fiasp" = "Fiasp";
 
 /* The format string used to describe a finite workout targets duration */
 "For %1$@" = "%1$@ ajaksi";
+
+/* The short unit display string for grams */
+"g" = "g";
+
+/* Get help with Notification & Critical Alert Permissions support button text */
+"Get help with Notification & Critical Alert Permissions" = "Apua ilmoitusten & tärkeiden hälytysten käyttöoikeuksien kanssa";
+
+/* No comment provided by engineer. */
+"Get help with Notification & Critical Alert Permissions screen" = "Apua ilmoitusten & tärkeiden hälytysten käyttöoikeuksien kanssa -näyttö";
 
 /* The title of the glucose and prediction graph */
 "Glucose" = "Glukoosi";
@@ -246,11 +351,14 @@
 /* Description of error when glucose data is missing */
 "Glucose data not available" = "Glukoositietoja ei saatavilla";
 
+/* Alert title when glucose data returns while on bolus screen */
+"Glucose Data Now Available" = "Glukoositiedot nyt saatavilla";
+
+/* Alert title for a manual glucose entry out of range error */
+"Glucose Entry Out of Range" = "Glukoosiarvo alueen ulkopuolella";
+
 /* Title of the prediction input effect for glucose momentum */
 "Glucose Momentum" = "Glukoosin liike";
-
-/* The placeholder text for the nightscout site URL credential */
-"https://mysite.herokuapp.com" = "https://omaosoite.herokuapp.com";
 
 /* The title of a target alert action specifying an indefinitely long workout targets duration */
 "Indefinitely" = "Toistaiseksi";
@@ -271,9 +379,15 @@
    The title text for the insulin model setting row */
 "Insulin Model" = "Insuliinimalli";
 
+/* Descriptive text for Insulin Pump */
+"Insulin Pump" = "Insuliinipumppu";
+
 /* The title of the insulin sensitivities schedule screen
    The title text for the insulin sensitivity schedule */
 "Insulin Sensitivities" = "Insuliiniherkkyydet";
+
+/* The title of the cell indicating the pump is suspended */
+"Insulin Suspended" = "Insuliini pysäytetty";
 
 /* The error message when invalid data was encountered. (1: details of invalid data) */
 "Invalid data: %1$@" = "Virheellinen tieto: %1$@";
@@ -284,41 +398,74 @@
 /* Glucose HUD accessibility hint */
 "Launches CGM app" = "Avaa CGM-sovelluksen";
 
+/* OK button title for alert shown when delivery status is uncertain */
+"Learn More" = "Lue lisää";
+
 /* The loading message for the diagnostic report screen */
 "Loading..." = "Ladataan...";
-
-/* The title of the loggly service */
-"Loggly" = "Loggly";
 
 /* The notification title for a loop failure */
 "Loop Failure" = "Loopin häiriö";
 
+/* Bluetooth unavailable alert body. */
+"Loop has detected an issue with your Bluetooth settings, and will not work successfully until Bluetooth is enabled. You will not receive glucose readings, or be able to bolus." = "Loop on havainnut Bluetooth-asetuksissa ongelman, eikä se toimi oikein ennen kuin Bluetooth on otettu käyttöön. Et saa glukoosilukemia, etkä voi antaa bolusta.";
+
 /* The notification alert describing a long-lasting loop failure. The substitution parameter is the time interval since the last loop */
 "Loop has not completed successfully in %@" = "Häiriö Loopin toiminnassa %@";
 
-/* Title text for bolus screen following a carb entry */
+/* Bluetooth off background alert body. */
+"Loop will not work successfully until Bluetooth is enabled. You will not recieve glucose readings, or be able to bolus." = "Loop ei toimi oikein ennen kuin Bluetooth on otettu käyttöön. Et saa glukoosilukemia, etkä voi antaa bolusta.";
+
+/* Manage Critical Alerts in Settings button text */
+"Manage Critical Alerts in Settings" = "Tärkeiden hälytysten hallinta asetuksissa";
+
+/* Manage Notifications in Settings button text */
+"Manage Notifications in Settings" = "Ilmoitusten hallinta asetuksissa";
+
+/* Title for bolus entry screen when also entering carbs */
 "Meal Bolus" = "Ateriabolus";
+
+/* The short unit display string for milligrams of glucose per decilter */
+"mg/dL" = "mg/dL";
 
 /* The error message for missing data. (1: missing data details) */
 "Missing data: %1$@" = "Tiedot puuttuvat: %1$@";
 
+/* The short unit display string for millimoles of glucose per liter */
+"mmol/L" = "mmol/L";
+
 /* Details for missing data error when momentum effects are missing */
 "Momentum effects" = "Liikevaikutukset (momentum)";
+
+/* Sensor state description for the non-valid state */
+"Needs Attention" = "Tarvitsee huomiota";
 
 /* The title of the Nightscout service */
 "Nightscout" = "Nightscout";
 
+/* Title for bolus screen notice when no bolus is recommended */
+"No Bolus Recommended" = "Bolusta ei suositella";
+
 /* The error message displayed for device connection errors. */
 "No connected devices, or failure during device connection" = "Ei yhdistettyjä laitteita tai häiriö laiteyhteydessä";
 
-/* Button text to acknowledge an updated bolus recommendation alert */
+/* Alert title for a missing maximum bolus setting error */
+"No Maximum Bolus Configured" = "Maksimibolusta ei ole määritetty";
+
+/* Alert title for a missing pump error */
+"No Pump Configured" = "Pumppua ei ole määritetty";
+
+/* Title for bolus screen notice when glucose data is missing or stale */
+"No Recent Glucose Data" = "Ei viimeaikaisia glukoositietoja";
+
+/* Title for bolus screen notice when pump data is missing or stale */
+"No Recent Pump Data" = "Ei viimeaikaisia pumpputietoja";
+
+/* The title of the notification action to acknowledge a device alert */
 "OK" = "OK";
 
 /* The title text for the override presets */
 "Override Presets" = "Tilapäisasetukset";
-
-/* Name of pre-meal workout override */
-"Pre-Meal" = "Ennen ateriaa";
 
 /* The label of the pre-meal mode toggle button */
 "Pre-Meal Targets" = "Ennen ateriaa -tavoite";
@@ -331,6 +478,9 @@
 
 /* Format string describing retrospective glucose prediction comparison. (1: Predicted glucose)(2: Actual glucose)(3: difference) */
 "Predicted: %1$@\nActual: %2$@ (%3$@)" = "Ennustettu: %1$@\nTodellinen: %2$@ (%3$@)";
+
+/* Format string describing retrospective glucose prediction comparison. (1: Predicted glucose)(2: Actual glucose)(3: difference) */
+"prediction-description-retrospective-correction" = "prediction-description-retrospective-correction";
 
 /* The title of the pump section in settings */
 "Pump" = "Pumppu";
@@ -353,6 +503,9 @@
 /* The title of the cell indicating the pump is suspended */
 "Pump Suspended" = "Pumppu pysäytetty";
 
+/* Format string for combining localized numeric value and unit. (1: numeric value)(2: unit) */
+"QUANTITY_VALUE_AND_UNIT" = "%1$@ %2$@";
+
 /* Title of insulin model preset */
 "Rapid-Acting – Adults" = "Nopeavaikutteinen – aikuiset";
 
@@ -365,6 +518,9 @@
 /* The title of the cell displaying a recommended temp basal value */
 "Recommended Basal" = "Suositeltu basaali";
 
+/* Label for recommended bolus row on bolus screen */
+"Recommended Bolus" = "Suositeltu bolus";
+
 /* Accessibility hint describing recommended bolus units */
 "Recommended Bolus: %@ Units" = "Suositeltu bolus: %@ yksikköä";
 
@@ -374,11 +530,13 @@
 /* Title of the prediction input effect for retrospective correction */
 "Retrospective Correction" = "Retrospektiivinen korjaus";
 
-/* The button text for attempting a manual loop
-   The title of the notification action to retry a bolus command */
+/* The title of the notification action to retry a bolus command */
 "Retry" = "Uudelleen";
 
-/* The button text to save a carb entry without bolusing */
+/* Button text to save carbs and/or manual glucose entry and deliver a bolus */
+"Save and Deliver" = "Tallenna ja annostele";
+
+/* Button text to save carbs and/or manual glucose entry without a bolus */
 "Save without Bolusing" = "Tallenna ilman bolusta";
 
 /* The title of the services section in settings */
@@ -402,8 +560,20 @@
 /* The title of the cell indicating a bolus is being sent */
 "Starting Bolus" = "Aloitetaan bolus";
 
+/* Section title for Support
+   Support screen title
+   The title of the support item in settings
+   The title of the support section in settings */
+"Support" = "Tuki";
+
 /* The title text in settings */
 "Suspend Threshold" = "Pysäytysraja";
+
+/* Descriptive text for button to add CGM device */
+"Tap here to set up a CGM" = "Määritä CGM napauttamalla tästä";
+
+/* Descriptive text for button to add pump device */
+"Tap here to set up a pump" = "Määritä pumppu napauttamalla tästä";
 
 /* The subtitle of the cell displaying an action to resume insulin delivery */
 "Tap to Resume" = "Jatka annostelua";
@@ -414,11 +584,35 @@
 /* Subtitle description of Walsh insulin model setting */
 "The legacy model used by Loop, allowing customization of action duration." = "Loopin vanha insuliinimalli, jossa voi muokata insuliinin vaikutusaikaa.";
 
+/* Alert message for a maximum bolus validation error (1: max bolus value) */
+"The maximum bolus amount is %@ U." = "Suurin sallittu bolus on %@ U.";
+
 /* Body of the alert describing a maximum bolus validation error. (1: The localized max bolus value) */
 "The maximum bolus amount is %@ Units" = "Suurin sallittu bolus on %@ yksikköä";
 
+/* Alert message for a missing maximum bolus setting error */
+"The maximum bolus setting must be configured before a bolus can be delivered." = "Suurin sallittu bolus -asetus täytyy määrittää ennen kuin bolus voidaan annostella.";
+
+/* Title text for button to Therapy Settings */
+"Therapy Settings" = "Hoidon asetukset";
+
+/* Bluetooth off foreground alert body */
+"Turn on Bluetooth to receive alerts, alarms or sensor glucose readings." = "Ota Bluetooth käyttöön saadaksesi hälytyksiä tai sensorin glukoosilukemia.";
+
 /* The short unit display string for international units of insulin */
 "U" = "U";
+
+/* Title for alert shown when delivery status is uncertain */
+"Unable To Reach Pump" = "Pumppuun ei voitu yhdistää";
+
+/* Alert title for a carb entry persistence error */
+"Unable to Save Carb Entry" = "Hiilihydraatteja ei voitu tallentaa";
+
+/* Alert title for a manual glucose entry persistence error */
+"Unable to Save Manual Glucose Entry" = "Glukoosiarvoa ei voitu tallentaa";
+
+/* The alert body for an error while canceling a bolus */
+"Unable to stop the bolus in progress. Move your iPhone closer to the pump and try again. Check your insulin delivery history for details, and monitor your glucose closely." = "Käynnissä olevaa bolusta ei voitu pysäyttää. Siirrä iPhone lähemmäksi pumppua ja yritä uudelleen. Tarkista tiedot insuliinin annosteluhistoriasta ja seuraa glukoosia tarkasti.";
 
 /* The format for the description of a temporary override end date */
 "until %@" = "%@ asti";
@@ -432,9 +626,12 @@
 /* Explanation of suspend threshold */
 "When current or forecasted glucose is below the suspend threshold, Loop will not recommend a bolus, and will always recommend a temporary basal rate of 0 units per hour." = "Kun nykyinen tai ennustettu glukoosi on pysäytysrajan alapuolella, Loop ei suosittele bolusta ja suosittelee aina tilapäiseksi basaaliksi 0 yksikköä tunnissa.";
 
-/* Name of legacy workout override */
-"Workout" = "Liikunta";
-
 /* The label of the workout mode toggle button */
 "Workout Targets" = "Liikuntatavoitteet";
+
+/* Caption for bolus screen notice when no bolus is recommended due to prediction dropping below suspend threshold */
+"Your glucose is below or predicted to go below your suspend threshold, %@." = "Glukoosi on alle tai sen ennustetaan alittavan pysäytysrajan %@.";
+
+/* Caption for bolus screen notice when pump data is missing or stale */
+"Your pump data is stale. Loop cannot recommend a bolus amount." = "Pumpun tiedot ovat vanhentuneet. Loop ei voi suositella bolusmäärää.";
 

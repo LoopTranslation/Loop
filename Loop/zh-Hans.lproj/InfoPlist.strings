@@ -1,3 +1,6 @@
+/* Bundle display name */
+"CFBundleDisplayName" = "Loop";
+
 /* Bundle name */
 "CFBundleName" = "$(PRODUCT_NAME)";
 
@@ -7,8 +10,11 @@
 /* Privacy - Bluetooth Peripheral Usage Description */
 "NSBluetoothPeripheralUsageDescription" = "蓝牙用于与胰岛素泵和连续血糖监测设备进行通信";
 
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "Camera is used to scan barcodes of devices";
+
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "使用人脸解锁来确认输注胰岛素剂量";
+"NSFaceIDUsageDescription" = "Face ID is used to authenticate insulin bolus and to save changes to therapy settings.";
 
 /* Privacy - Health Share Usage Description */
 "NSHealthShareUsageDescription" = "数据库中的膳食数据用于确定葡萄糖影响。健康数据库中的葡萄糖数据用于绘图和动量计算。";

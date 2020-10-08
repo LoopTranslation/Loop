@@ -1,5 +1,14 @@
+/* Manage Notifications in Settings descriptive text */
+"\n            Critical Alerts will always play a sound and appear on the Lock screen even if your iPhone is muted or Do Not Disturb is on.\n            " = "\n            Kritiske advarsler vil altid afspille en lyd og vises på låseskærmen, selvom din iPhone er lydløs eller 'Forstyr ikke' er aktiveret.\n            ";
+
+/* Manage Notifications in Settings descriptive text */
+"\n            Notifications appear on your Lock screen or pop up while you’re using other apps.\n            \n            Notifications give you important (appName) app information without requiring you to open the app.  You can customize when and how you want to receive these notifications.\n            " = "\n            Notifikationer vises på din låseskærm eller popper op, mens du bruger andre apps.\n            \n            Notifikationer giver dig vigtige oplysninger om (appName) uden at kræve, at du åbner appen. Du kan tilpasse, hvornår og hvordan du vil modtage disse meddelelser.\n            ";
+
 /* The string format appended to active insulin that describes pending insulin. (1: pending insulin) */
 " (pending: %@)" = " (afventer: %@)";
+
+/* No comment provided by engineer. */
+"--" = "--";
 
 /* The format for an active override preset. (1: preset symbol)(2: preset name) */
 "%@ %@" = "%1$@ %2$@";
@@ -16,11 +25,17 @@
 /* Format string for glucose target range. (1: Min target)(2: Max target)(3: glucose unit) */
 "%1$@ – %2$@ %3$@" = "%1$@ – %2$@ %3$@";
 
+/* Format string combining carb entry quantity and absorption time emoji */
+"%1$@ %2$@" = "%1$@ %2$@";
+
 /* Format string for carb ratio average. (1: value)(2: carb unit) */
 "%1$@ %2$@/U" = "%1$@ %2$@/E";
 
 /* Formats (1: carb start time) and (2: carb absorption duration) */
 "%1$@ + %2$@" = "%1$@ + %2$@";
+
+/* Message for alert shown when delivery status is uncertain. (1: app name) */
+"%1$@ is unable to communicate with your insulin pump. The app will continue trying to reach your pump, but insulin delivery information cannot be updated and no automation can continue.\nYou can wait several minutes to see if the issue resolves or tap the button below to learn more about other options." = "%1$@ kan ikke kommunikere med insulinpumpen. Appen vil fortsætte med at forsøge at nå din pumpe, men insulinafgivelsesoplysninger kan ikke opdateres, og ingen automatisering kan fortsætte.\nDu kan vente flere minutter for at se, om problemet bliver løst, eller tryk på knappen nedenfor for at få mere at vide om andre muligheder.";
 
 /* Low reservoir alert format string. (1: Number of units remaining) */
 "%1$@ U left" = "%1$@ E tilbage";
@@ -38,16 +53,25 @@
 "%1$@: %2$@" = "%1$@: %2$@";
 
 /* Description of the prediction input effect for glucose momentum */
-"15 min glucose regression coefficient (b₁), continued with decay over 30 min" = "15 min. glukoseregressionskoefficient (b₁), fortsætter med henfald over 30 minutter.";
+"15 min glucose regression coefficient (b₁), continued with decay over 30 min" = "15 min. glukose regressionskoefficient (b₁), fortsætter med fald over 30 minutter";
 
 /* Description of the prediction input effect for retrospective correction */
-"30 min comparison of glucose prediction vs actual, continued with decay over 60 min" = "30 min. sammenligning af glukose-forudsigelse kontra faktisk målt glukose, med henfald over 60 minutter.";
+"30 min comparison of glucose prediction vs actual, continued with decay over 60 min" = "30 min. sammenligning af blodsukker-forudsigelse kontra faktisk målt blodsukker, med fald over 60 minutter";
+
+/* Alert message for a manual glucose entry out of range error */
+"A manual glucose entry must be between %@ and %@" = "En manuel blodsukkerindtastning skal være mellem %1$@ og %2$@";
 
 /* Subtitle of Fiasp preset */
 "A model based on the published absorption of Fiasp insulin." = "En model baseret på publiceret data om absorption af Fiasp insulin.";
 
 /* Subtitle of Rapid-Acting – Adult preset */
 "A model based on the published absorption of Humalog, Novolog, and Apidra insulin in adults." = "En model baseret på publiceret data om absorption Humalog, Novolog, og Apidra insulin hos voksne.";
+
+/* Alert message for a missing pump error */
+"A pump must be configured before a bolus can be delivered." = "En pumpe skal være konfigureret før en bolus kan leveres.";
+
+/* Title of the carb entry absorption time cell */
+"Absorption Time" = "Absorptionstid";
 
 /* Action to copy the recommended Bolus value to the actual Bolus Field */
 "AcceptRecommendedBolus" = "AccepterAnbefaletBolus";
@@ -57,6 +81,9 @@
 
 /* The string format describing active carbohydrates. (1: localized glucose value description) */
 "Active Carbohydrates: %@" = "Aktive kulhydrater: %@";
+
+/* Title describing quantity of still-absorbing carbohydrates */
+"Active Carbs" = "Aktive kulhydrater";
 
 /* The title of the Insulin On-Board graph */
 "Active Insulin" = "Aktiv insulin";
@@ -71,12 +98,22 @@
    Title text for button to set up a CGM */
 "Add CGM" = "Tilføj CGM";
 
-/* The label of the carb entry button */
+/* The label of the meal button */
 "Add Meal" = "Tilføj måltid";
 
 /* Action sheet title selecting Pump
    Title text for button to set up a new pump */
 "Add Pump" = "Tilføj pumpe";
+
+/* Title text for button to set up a service */
+"Add Service" = "Tilføj tjeneste";
+
+/* Alert Permissions button text
+   Notification & Critical Alert Permissions screen title */
+"Alert Permissions" = "Alarm tilladelser";
+
+/* The title of the section containing algorithm settings */
+"Algorithm Settings" = "Indstillinger for algoritme";
 
 /* The title of the Amplitude service */
 "Amplitude" = "Amplitude";
@@ -84,14 +121,29 @@
 /* Subtitle of Rapid-Acting – Children preset */
 "An adjustment to the adult model based on empirical effects in children." = "En tilpasning til voksenmodellen baseret på empiriske data hos børn.";
 
+/* Alert message for a carb entry persistence error */
+"An error occurred while trying to save your carb entry." = "Der opstod en fejl under forsøget på at gemme kulhydrat indtastning.";
+
+/* Alert message for a manual glucose entry persistence error */
+"An error occurred while trying to save your manual glucose entry." = "Der opstod en fejl under forsøget på at gemme en manuel blodsukker indtastning.";
+
+/* Alert message when glucose data returns while on bolus screen */
+"An updated bolus recommendation is available." = "En opdateret bolus anbefaling er tilgængelig.";
+
 /* The title of the amplitude API key credential */
 "API Key" = "API nøgle";
 
 /* The title of the nightscout API secret credential */
 "API Secret" = "API kodeord";
 
+/* No comment provided by engineer. */
+"Are you sure you want to delete all your %@ Data?\n(This action is not reversible)" = "Er du sikker på, at du vil slette alle dine %@ data?\n(Denne handling kan ikke fortrydes)";
+
 /* Confirmation message for deleting a CGM */
 "Are you sure you want to delete this CGM?" = "Er du sikker på at du vil slette denne CGM?";
+
+/* Confirmation message for deleting a service */
+"Are you sure you want to delete this service?" = "Er du sikker på du vil slette denne service?";
 
 /* Format fragment for a specific time */
 "at %@" = "at %@";
@@ -100,15 +152,27 @@
 "Authenticate to Bolus %@ Units" = "Godkend bolus af %@ Enheder";
 
 /* Details for configuration error when basal rate schedule is missing */
-"Basal Rate Schedule" = "Basal rater skema";
+"Basal Rate Schedule" = "Basalrater skema";
 
 /* The title of the basal rate profile screen
    The title text for the basal rate schedule */
-"Basal Rates" = "Basal rater";
+"Basal Rates" = "Basalrater";
+
+/* Bluetooth off alert title */
+"Bluetooth Off Alert" = "Bluetooth slukket alarm";
+
+/* Bluetooth unavailable alert title */
+"Bluetooth Unavailable Alert" = "Bluetooth er ikke tilgængelig";
 
 /* The label of the bolus entry button
    The notification title for a bolus failure */
 "Bolus" = "Bolus";
+
+/* Alert title for an updated bolus recommendation */
+"Bolus Recommendation Updated" = "Bolus anbefaling opdateret";
+
+/* Title for card displaying carb entry and bolus recommendation */
+"Bolus Summary" = "Bolus resumé";
 
 /* The format string for bolus progress. (1: delivered volume)(2: total volume) */
 "Bolused %1$@ of %2$@" = "Bolus %1$@ af %2$@";
@@ -125,18 +189,28 @@
 /* Details for missing data error when carb effects are missing */
 "Carb effects" = "Kulhydrat effekt";
 
+/* Back button text for bolus screen to return to carb entry screen
+   Label for carb entry row on bolus screen */
+"Carb Entry" = "Indtast kulhydrater";
+
 /* The title of the carb ratios schedule screen
    The title text for the carb ratio schedule */
-"Carb Ratios" = "Kulhydrat ratios";
+"Carb Ratios" = "Kulhydratforhold";
+
+/* The title of the view controller to create a new carb entry */
+"carb-entry-title-add" = "Tilføj kulhydrater";
+
+/* The title of the view controller to edit an existing carb entry */
+"carb-entry-title-edit" = "Rediger kulhydrat";
 
 /* Title of the prediction input effect for carbohydrates */
 "Carbohydrates" = "Kulhydrater";
 
 /* Description of the prediction input effect for carbohydrates. (1: The glucose unit string) */
-"Carbs Absorbed (g) ÷ Carb Ratio (g/U) × Insulin Sensitivity (%1$@/U)" = "Kulhydrater absorberet (g) ÷ Kulhydrat ratio (g/E) × Insulin følsomhed (%1$@/E)";
+"Carbs Absorbed (g) ÷ Carb Ratio (g/U) × Insulin Sensitivity (%1$@/U)" = "Kulhydrater absorberet (g) ÷ Kulhydratforhold (g/E) × Insulin følsomhed (%1$@/E)";
 
 /* The notification alert describing a low pump battery */
-"Change the pump battery immediately" = "Udskift pumpe batteri omgående";
+"Change the pump battery immediately" = "Skift straks pumpens batteri";
 
 /* The notification alert describing an empty pump reservoir */
 "Change the pump reservoir now" = "Skift pumpe reservoir nu";
@@ -145,10 +219,13 @@
 "Check settings" = "Kontroller indstillinger";
 
 /* Recovery suggestion when reservoir data is missing */
-"Check that your pump is in range" = "Kontroller, at din pumpe er indenfor rækkevidde";
+"Check that your pump is in range" = "Kontroller, at din pumpe er tæt nok på";
 
 /* Recovery suggestion when glucose data is missing */
 "Check your CGM data source" = "Kontroller din CGM data kilde";
+
+/* Carb entry section footer text explaining absorption time */
+"Choose a longer absorption time for larger meals, or those containing fats and proteins. This is only guidance to the algorithm and need not be exact." = "Vælg en længere absorptionstid for større måltider, eller dem, der indeholder fedt og proteiner. Dette er kun vejledning til algoritmen og behøver ikke være nøjagtig.";
 
 /* The title text for the looping enabled switch cell */
 "Closed Loop" = "Lukket Loop";
@@ -163,7 +240,7 @@
 "Configuration Error: %1$@" = "Konfigurations fejl: %1$@";
 
 /* The title of the continuous glucose monitor section in settings */
-"Continuous Glucose Monitor" = "Kontinuerlig Blodsukker Måler";
+"Continuous Glucose Monitor" = "Kontinuerlig blodsukker måler";
 
 /* The title of the glucose target range schedule screen
    The title text for the glucose target range schedule */
@@ -173,25 +250,67 @@
 "Current glucose of %1$@ is below correction range." = " Nuværende blodsukker på %1$@ er under dit korrektionsområde.";
 
 /* The title of the cell indicating a generic temporary override is enabled */
-"Custom Override" = "Overstyr";
+"Custom Override" = "Override";
+
+/* The title of the cell indicating a generic custom preset is enabled */
+"Custom Preset" = "Brugerdefineret preset";
 
 /* The title of the Loggly customer token credential */
-"Customer Token" = "Kunde Token";
+"Customer Token" = "Kunde token";
+
+/* Title of the carb entry date picker cell */
+"Date" = "Dato";
+
+/* The short unit display string for decibles */
+"dB" = "dB";
+
+/* No comment provided by engineer. */
+"Delete" = "Slet";
+
+/* The title of the button to remove the credentials for a service */
+"Delete Account" = "Slet konto";
 
 /* Button title to delete CGM */
 "Delete CGM" = "Slet CGM";
 
+/* Button title to delete a service */
+"Delete Service" = "Slet tjeneste";
+
+/* No comment provided by engineer. */
+"Delete Testing CGM Data" = "Slet CGM testdata";
+
+/* No comment provided by engineer. */
+"Delete Testing Data" = "Slet testdata";
+
+/* No comment provided by engineer. */
+"Delete Testing Pump Data" = "Slet pumpe testdata";
+
+/* Button text to deliver a bolus */
+"Deliver" = "Afgiv";
+
 /* Title text for delivery limits */
-"Delivery Limits" = "Indgivningsgrænser";
+"Delivery Limits" = "Insulin-grænser";
+
+/* Descriptive text for Therapy Settings */
+"Diabetes Treatment" = "Diabetes behandling";
 
 /* The action hint of the workout mode toggle button when enabled */
 "Disables" = "Deaktiverer";
 
+/* Default alert dismissal */
+"Dismiss" = "Afvise";
+
+/* No comment provided by engineer. */
+"Done" = "Udført";
+
 /* The action hint of the workout mode toggle button when disabled */
 "Enables" = "Aktiverer";
 
+/* Button text to begin entering a bolus */
+"Enter Bolus" = "Indtast bolus";
+
 /* The placeholder text instructing users to enter a suspend treshold */
-"Enter suspend threshold" = "Indtast grænse for suspendering";
+"Enter suspend threshold" = "Indtast suspenderingsgrænse";
 
 /* The alert title for an error while canceling a bolus */
 "Error Canceling Bolus" = "Fejl ved annullering af bolus";
@@ -205,11 +324,23 @@
 /* The title of the alert describing a maximum bolus validation error */
 "Exceeds Maximum Bolus" = "Overstiger maximum bolus";
 
+/* The alert title for a resume error */
+"Failed to Resume Insulin Delivery" = "Insulinafgivelse kunne ikke genoptages";
+
 /* Title of insulin model preset */
 "Fiasp" = "Fiasp";
 
 /* The format string used to describe a finite workout targets duration */
 "For %1$@" = "I %1$@";
+
+/* The short unit display string for grams */
+"g" = "g";
+
+/* Get help with Notification & Critical Alert Permissions support button text */
+"Get help with Notification & Critical Alert Permissions" = "Få hjælp med Notification & Kritiske alarm tilladelser";
+
+/* No comment provided by engineer. */
+"Get help with Notification & Critical Alert Permissions screen" = "Få hjælp med Notification & Kritiske alarm skærm";
 
 /* The title of the glucose and prediction graph */
 "Glucose" = "Blodsukker";
@@ -220,11 +351,14 @@
 /* Description of error when glucose data is missing */
 "Glucose data not available" = "Blodsukker data ikke tilgængelige";
 
+/* Alert title when glucose data returns while on bolus screen */
+"Glucose Data Now Available" = "Blodsukker data er nu tilgængelige";
+
+/* Alert title for a manual glucose entry out of range error */
+"Glucose Entry Out of Range" = "Blodsukker værdi er uden for intervallet";
+
 /* Title of the prediction input effect for glucose momentum */
 "Glucose Momentum" = "Blodsukker momentum";
-
-/* The placeholder text for the nightscout site URL credential */
-"https://mysite.herokuapp.com" = "https://minside.herokuapp.com";
 
 /* The title of a target alert action specifying an indefinitely long workout targets duration */
 "Indefinitely" = "Uendelig";
@@ -236,57 +370,105 @@
 "Insulin Absorbed (U) × Insulin Sensitivity (%1$@/U)" = "Insulin absorberet (E) × Insulin følsomhed (%1$@/E)";
 
 /* The title of the insulin delivery graph */
-"Insulin Delivery" = "Insulin Indgivelse";
+"Insulin Delivery" = "Insulinafgivelse";
 
 /* Details for missing data error when insulin effects are missing */
 "Insulin effects" = "Insulin effekter";
 
 /* Details for configuration error when insulin model is missing
    The title text for the insulin model setting row */
-"Insulin Model" = "Insulin Model";
+"Insulin Model" = "Insulin type";
+
+/* Descriptive text for Insulin Pump */
+"Insulin Pump" = "Insulin pumpe";
 
 /* The title of the insulin sensitivities schedule screen
    The title text for the insulin sensitivity schedule */
-"Insulin Sensitivities" = "Insulin Følsomheder";
+"Insulin Sensitivities" = "Insulinfølsomheder";
+
+/* The title of the cell indicating the pump is suspended */
+"Insulin Suspended" = "Insulin suspenderet";
 
 /* The error message when invalid data was encountered. (1: details of invalid data) */
 "Invalid data: %1$@" = "Fejlagtige data: %1$@";
 
 /* The title text for the issue report cell */
-"Issue Report" = "Fejl Rapport";
+"Issue Report" = "Fejl rapport";
 
 /* Glucose HUD accessibility hint */
-"Launches CGM app" = "Åbner CGM app’en";
+"Launches CGM app" = "Åbner CGM app";
+
+/* OK button title for alert shown when delivery status is uncertain */
+"Learn More" = "Lær mere";
 
 /* The loading message for the diagnostic report screen */
-"Loading..." = "Danner...";
-
-/* The title of the loggly service */
-"Loggly" = "Loggly";
+"Loading..." = "Indlæser...";
 
 /* The notification title for a loop failure */
-"Loop Failure" = "Loop Fejl";
+"Loop Failure" = "Loop fejl";
+
+/* Bluetooth unavailable alert body. */
+"Loop has detected an issue with your Bluetooth settings, and will not work successfully until Bluetooth is enabled. You will not receive glucose readings, or be able to bolus." = "Loop har opdaget et problem med dine Bluetooth-indstillinger, og fungerer ikke korrekt, før Bluetooth er aktiveret. Du vil ikke få blodsukkeraflæsninger eller være i stand til at give bolus.";
 
 /* The notification alert describing a long-lasting loop failure. The substitution parameter is the time interval since the last loop */
 "Loop has not completed successfully in %@" = "Loop har ikke kørt korrekt i %@";
 
+/* Bluetooth off background alert body. */
+"Loop will not work successfully until Bluetooth is enabled. You will not recieve glucose readings, or be able to bolus." = "Loop vil ikke fungere korrekt, før Bluetooth er aktiveret. Du vil ikke modtage blodsukkeraflæsninger eller være i stand til at give bolus.";
+
+/* Manage Critical Alerts in Settings button text */
+"Manage Critical Alerts in Settings" = "Administrere kritiske beskeder i Indstillinger";
+
+/* Manage Notifications in Settings button text */
+"Manage Notifications in Settings" = "Administrere notifikationer i Indstillinger";
+
+/* Title for bolus entry screen when also entering carbs */
+"Meal Bolus" = "Måltid bolus";
+
+/* The short unit display string for milligrams of glucose per decilter */
+"mg/dL" = "mg/dL";
+
 /* The error message for missing data. (1: missing data details) */
 "Missing data: %1$@" = "Manglende data: %1$@";
+
+/* The short unit display string for millimoles of glucose per liter */
+"mmol/L" = "mmol/L";
 
 /* Details for missing data error when momentum effects are missing */
 "Momentum effects" = "Momentum effekter";
 
+/* Sensor state description for the non-valid state */
+"Needs Attention" = "Handling påkrævet";
+
 /* The title of the Nightscout service */
 "Nightscout" = "Nightscout";
+
+/* Title for bolus screen notice when no bolus is recommended */
+"No Bolus Recommended" = "Ingen bolus anbefalet";
 
 /* The error message displayed for device connection errors. */
 "No connected devices, or failure during device connection" = "Ingen tilsluttede enheder, eller fejl under forbindelse til enhed";
 
+/* Alert title for a missing maximum bolus setting error */
+"No Maximum Bolus Configured" = "Ingen maksimal bolus konfigureret";
+
+/* Alert title for a missing pump error */
+"No Pump Configured" = "Ingen pumpe konfigureret";
+
+/* Title for bolus screen notice when glucose data is missing or stale */
+"No Recent Glucose Data" = "Mangler blodsukker data";
+
+/* Title for bolus screen notice when pump data is missing or stale */
+"No Recent Pump Data" = "Ingen nyere pumpedata";
+
+/* The title of the notification action to acknowledge a device alert */
+"OK" = "OK";
+
 /* The title text for the override presets */
-"Override Presets" = "Overstyring Forudinstillinger";
+"Override Presets" = "Overrides forudinstillinger";
 
 /* The label of the pre-meal mode toggle button */
-"Pre-Meal Targets" = "Før-Måltid Mål";
+"Pre-Meal Targets" = "Før-måltid mål";
 
 /* Message when offering bolus recommendation even though bg is below range and minBG is in future. (1: glucose time)(2: glucose number) */
 "Predicted glucose at %1$@ is %2$@." = "Forventet blodsukker ved %1$@ er %2$@.";
@@ -295,28 +477,34 @@
 "Predicted glucose of %1$@ is below your suspend threshold setting." = "Forventet blodsukker på %1$@ er under den indstillede suspenderingsgrænse.";
 
 /* Format string describing retrospective glucose prediction comparison. (1: Predicted glucose)(2: Actual glucose)(3: difference) */
-"Predicted: %1$@\nActual: %2$@ (%3$@)" = "Forventet: %1$@\nActual: %2$@ (%3$@)";
+"Predicted: %1$@\nActual: %2$@ (%3$@)" = "Forventet: %1$@\nFaktisk: %2$@ (%3$@)";
+
+/* Format string describing retrospective glucose prediction comparison. (1: Predicted glucose)(2: Actual glucose)(3: difference) */
+"prediction-description-retrospective-correction" = "forudsigelse-beskrivelse-tidligere-korrektion";
 
 /* The title of the pump section in settings */
 "Pump" = "Pumpe";
 
 /* The notification title for a low pump battery */
-"Pump Battery Low" = "Pumpe Batteri Lav";
+"Pump Battery Low" = "Pumpe batteri er lav";
 
 /* The error message when pump data is too old to be used. (1: pump data age in minutes) */
 "Pump data is %1$@ old" = "Pumpe data er %1$@ gamle";
 
 /* Details for configuration error when pump manager is missing */
-"Pump Manager" = "Pumpe Manager";
+"Pump Manager" = "Pumpe manager";
 
 /* The notification title for an empty pump reservoir */
-"Pump Reservoir Empty" = "Pumpe Reservoir Tomt";
+"Pump Reservoir Empty" = "Pumpe reservoir tomt";
 
 /* The notification title for a low pump reservoir */
-"Pump Reservoir Low" = "Pumpe Reservoir Lavt";
+"Pump Reservoir Low" = "Pumpe reservoir lavt";
 
 /* The title of the cell indicating the pump is suspended */
-"Pump Suspended" = "Pumpe Pauset";
+"Pump Suspended" = "Pumpe stoppet";
+
+/* Format string for combining localized numeric value and unit. (1: numeric value)(2: unit) */
+"QUANTITY_VALUE_AND_UNIT" = "%1$@ %2$@";
 
 /* Title of insulin model preset */
 "Rapid-Acting – Adults" = "Hurtigt-Virkende – Voksne";
@@ -325,22 +513,31 @@
 "Rapid-Acting – Children" = "Hurtigt-Virkende – Børn";
 
 /* The error message when a recommendation has expired. (1: age of recommendation in minutes) */
-"Recommendation expired: %1$@ old" = "Forslag udløbet: %1$@ gamle";
+"Recommendation expired: %1$@ old" = "Anbefaling udløbet: %1$@ gamle";
 
 /* The title of the cell displaying a recommended temp basal value */
-"Recommended Basal" = "Foreslået Basal";
+"Recommended Basal" = "Anbefalet basal";
+
+/* Label for recommended bolus row on bolus screen */
+"Recommended Bolus" = "Anbefalet bolus";
 
 /* Accessibility hint describing recommended bolus units */
-"Recommended Bolus: %@ Units" = "Foreslået: %@ E";
+"Recommended Bolus: %@ Units" = "Anbefalet: %@ E";
 
 /* Details for missing data error when reservoir data is missing */
 "Reservoir" = "Reservoir";
 
 /* Title of the prediction input effect for retrospective correction */
-"Retrospective Correction" = "Tilbagevirkende Korrektion";
+"Retrospective Correction" = "Tilbagevirkende korrektion";
 
 /* The title of the notification action to retry a bolus command */
 "Retry" = "Forsøg igen";
+
+/* Button text to save carbs and/or manual glucose entry and deliver a bolus */
+"Save and Deliver" = "Gem og afgiv";
+
+/* Button text to save carbs and/or manual glucose entry without a bolus */
+"Save without Bolusing" = "Gem uden at give bolus";
 
 /* The title of the services section in settings */
 "Services" = "Services";
@@ -361,35 +558,80 @@
 "starting at %@" = "starter ved %@";
 
 /* The title of the cell indicating a bolus is being sent */
-"Starting Bolus" = "Starter Bolus";
+"Starting Bolus" = "Starter bolus";
+
+/* Section title for Support
+   Support screen title
+   The title of the support item in settings
+   The title of the support section in settings */
+"Support" = "Support";
 
 /* The title text in settings */
-"Suspend Threshold" = "Pause Grænseværdi";
+"Suspend Threshold" = "Suspenderingsgrænse";
+
+/* Descriptive text for button to add CGM device */
+"Tap here to set up a CGM" = "Tryk her for at konfigurere en CGM";
+
+/* Descriptive text for button to add pump device */
+"Tap here to set up a pump" = "Tryk her for at oprette en pumpe";
 
 /* The subtitle of the cell displaying an action to resume insulin delivery */
-"Tap to Resume" = "Tryk for at Fortsætte";
+"Tap to Resume" = "Tryk for at fortsætte";
+
+/* Alert message for an updated bolus recommendation */
+"The bolus recommendation has updated. Please reconfirm the bolus amount." = "Bolusanbefalingen er opdateret. Bekræft venligst bolus.";
 
 /* Subtitle description of Walsh insulin model setting */
 "The legacy model used by Loop, allowing customization of action duration." = "Den model, der bruges af Loop, tillader tilpasning af handlingens varighed.";
 
+/* Alert message for a maximum bolus validation error (1: max bolus value) */
+"The maximum bolus amount is %@ U." = "Den maksimale bolus er %@ enheder.";
+
 /* Body of the alert describing a maximum bolus validation error. (1: The localized max bolus value) */
-"The maximum bolus amount is %@ Units" = "Den maksimale bolus mængde er %@ Enheder";
+"The maximum bolus amount is %@ Units" = "Den maksimale bolus er %@ enheder";
+
+/* Alert message for a missing maximum bolus setting error */
+"The maximum bolus setting must be configured before a bolus can be delivered." = "Maksimal bolus skal konfigureres før en bolus kan leveres.";
+
+/* Title text for button to Therapy Settings */
+"Therapy Settings" = "Indstillinger for terapi";
+
+/* Bluetooth off foreground alert body */
+"Turn on Bluetooth to receive alerts, alarms or sensor glucose readings." = "Slå bluetooth til for at modtage advarsler, alarmer eller blodsukkermålinger.";
 
 /* The short unit display string for international units of insulin */
 "U" = "E";
+
+/* Title for alert shown when delivery status is uncertain */
+"Unable To Reach Pump" = "Kan ikke få kontakt til pumpen";
+
+/* Alert title for a carb entry persistence error */
+"Unable to Save Carb Entry" = "Kan ikke gemme kulhydrat indtastningen";
+
+/* Alert title for a manual glucose entry persistence error */
+"Unable to Save Manual Glucose Entry" = "Det manuelt indtastet blodsukker kan ikke gemmes";
+
+/* The alert body for an error while canceling a bolus */
+"Unable to stop the bolus in progress. Move your iPhone closer to the pump and try again. Check your insulin delivery history for details, and monitor your glucose closely." = "Kan ikke stoppe igangværende bolus. Flyt din iPhone tættere på pumpen og prøv igen. Tjek din historik for insulinafgivelse for detaljer og overvåg nøje dit blodsukkerniveau.";
 
 /* The format for the description of a temporary override end date */
 "until %@" = "indtil %@";
 
 /* The title of the alert controller used to select a duration for workout targets */
-"Use Workout Glucose Targets" = "Anvend Motion Blodsukker Mål";
+"Use Workout Glucose Targets" = "Anvend træning blodsukker mål";
 
 /* Title of insulin model setting */
 "Walsh" = "Walsh";
 
 /* Explanation of suspend threshold */
-"When current or forecasted glucose is below the suspend threshold, Loop will not recommend a bolus, and will always recommend a temporary basal rate of 0 units per hour." = "Når nuværende og forventet glukose er under suspenderingsgrænsen, vil Loop ikke anbefale en bolus, og vil altid anbefale en midlertidig basal rate på 0 enheder i timen.";
+"When current or forecasted glucose is below the suspend threshold, Loop will not recommend a bolus, and will always recommend a temporary basal rate of 0 units per hour." = "Når nuværende og forventet blodsukker er under suspenderingsgrænsen, vil Loop ikke anbefale en bolus, og vil altid anbefale en midlertidig basalrate på 0 enheder i timen.";
 
 /* The label of the workout mode toggle button */
-"Workout Targets" = "Motion Mål";
+"Workout Targets" = "Træningsmål";
+
+/* Caption for bolus screen notice when no bolus is recommended due to prediction dropping below suspend threshold */
+"Your glucose is below or predicted to go below your suspend threshold, %@." = "Dit blodsukker er under eller forventes at gå under din suspenderingsgrænse, %@.";
+
+/* Caption for bolus screen notice when pump data is missing or stale */
+"Your pump data is stale. Loop cannot recommend a bolus amount." = "Dine pumpedata er forældede. Loop kan ikke anbefale en bolus mængde.";
 
