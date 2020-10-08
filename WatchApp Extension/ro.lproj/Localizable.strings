@@ -20,10 +20,10 @@
 "Bolus Failed" = "Bolus eșuat";
 
 /* Alert title for updated bolus recommendation on Apple Watch */
-"Bolus Recommendation Updated" = "Bolus Recommendation Updated";
+"Bolus Recommendation Updated" = "Actualizare Recomandare bolus";
 
 /* Button text to continue from carb entry to bolus entry on Apple Watch */
-"Continue" = "Continue";
+"Continue" = "Continuă";
 
 /* The short unit display string for decibles */
 "dB" = "dB";
@@ -42,7 +42,7 @@
 
 /* The recovery message displayed after a bolus attempt fails
    The recovery message displayed after a potential carb entry send attempt fails */
-"Make sure your iPhone is nearby and try again." = "Make sure your iPhone is nearby and try again.";
+"Make sure your iPhone is nearby and try again." = "Asigurați-vă că iPhone-ul este în apropiere, după care încercați din nou.";
 
 /* The short unit display string for milligrams of glucose per decilter */
 "mg/dL" = "mg/dL";
@@ -54,25 +54,25 @@
 "Net Basal Rate" = "Rată bazală netă";
 
 /* Label for off button */
-"Off" = "Off";
+"Off" = "Oprit";
 
 /* No comment provided by engineer. */
 "OK" = "OK";
 
 /* Label for on button */
-"On" = "On";
+"On" = "Pornit";
 
 /* The text for the Watch button for enabling a temporary override */
 "Override" = "Suprascriere";
 
 /* Alert message for updated bolus recommendation on Apple Watch */
-"Please reconfirm the bolus amount." = "Please reconfirm the bolus amount.";
+"Please reconfirm the bolus amount." = "Vă rugăm să reconfirmați valoarea bolusului.";
 
 /* Title for sheet to enable/disable pre-meal on watch */
-"Pre-Meal" = "Pre-Meal";
+"Pre-Meal" = "Preprandial";
 
 /* The text for the Watch button for enabling a custom preset */
-"Preset" = "Preset";
+"Preset" = "Presetare";
 
 /* Format string for combining localized numeric value and unit. (1: numeric value)(2: unit) */
 "QUANTITY_VALUE_AND_UNIT" = "%1$@ %2$@";
@@ -90,10 +90,10 @@
 "Reservoir Volume" = "Volum rezervor";
 
 /* Button text to confirm carb entry without bolusing on Apple Watch */
-"Save" = "Save";
+"Save" = "Salvează";
 
 /* Button text to confirm carb entry and bolus on Apple Watch */
-"Save & Bolus" = "Save & Bolus";
+"Save & Bolus" = "Salvează & Bolus";
 
 /* The title of the alert controller displayed after a carb entry send attempt fails
    The title of the alert controller displayed after a glucose range override send attempt fails */
@@ -109,7 +109,7 @@
 "U/hr" = "U/h";
 
 /* The title of the alert controller displayed after a potential carb entry send attempt fails */
-"Unable to Reach iPhone" = "Unable to Reach iPhone";
+"Unable to Reach iPhone" = "Nu se poate conecta la iPhone";
 
 /* The text for the Watch button for enabling workout mode */
 "Workout" = "Exercitiu fizic";

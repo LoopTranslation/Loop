@@ -4,6 +4,9 @@
 /* Manage Notifications in Settings descriptive text */
 "\n            Notifications appear on your Lock screen or pop up while you’re using other apps.\n            \n            Notifications give you important (appName) app information without requiring you to open the app.  You can customize when and how you want to receive these notifications.\n            " = "\n            Notifications appear on your Lock screen or pop up while you’re using other apps.\n            \n            Notifications give you important (appName) app information without requiring you to open the app.  You can customize when and how you want to receive these notifications.\n            ";
 
+/* No comment provided by engineer. */
+" " = " ";
+
 /* The string format appended to active insulin that describes pending insulin. (1: pending insulin) */
 " (pending: %@)" = " (pendente: %@)";
 
@@ -15,6 +18,9 @@
 
 /* Formats absorbed carb value */
 "%@ absorbed" = "%@ absorvida";
+
+/* Estimated remaining duration with more than a minute */
+"%@ remaining" = "%@ remaining";
 
 /* The subtitle format describing total insulin. (1: localized insulin total) */
 "%@ U Total" = "%@ U Total";
@@ -57,6 +63,9 @@
 
 /* Description of the prediction input effect for retrospective correction */
 "30 min comparison of glucose prediction vs actual, continued with decay over 60 min" = "30 min de comparação da previsão de glicose vs atual, continuada com queda em 60 min.";
+
+/* Estimated remaining duration with a few seconds */
+"A few seconds remaining" = "A few seconds remaining";
 
 /* Alert message for a manual glucose entry out of range error */
 "A manual glucose entry must be between %@ and %@" = "A manual glucose entry must be between %1$@ and %2$@";
@@ -158,6 +167,12 @@
    The title text for the basal rate schedule */
 "Basal Rates" = "Taxa Basal";
 
+/* Message to the user to that the bluetooth is off */
+"Bluetooth\nOff" = "Bluetooth\nOff";
+
+/* Message to the user that bluetooth is unavailable to the app */
+"Bluetooth\nUnavailable" = "Bluetooth\nUnavailable";
+
 /* Bluetooth off alert title */
 "Bluetooth Off Alert" = "Bluetooth Off Alert";
 
@@ -246,6 +261,15 @@
    The title text for the glucose target range schedule */
 "Correction Range" = "Zona de correção";
 
+/* Critical event log ready text */
+"Critical Event Log Ready" = "Critical Event Log Ready";
+
+/* Critical event log export title */
+"Critical Event Logs" = "Critical Event Logs";
+
+/* Critical event log export error alert message */
+"Critical Event Logs were not able to be exported." = "Critical Event Logs were not able to be exported.";
+
 /* Message when offering bolus recommendation even though bg is below range. (1: glucose value) */
 "Current glucose of %1$@ is below correction range." = " Glicemia atual %1$@ está abaixo da zona de correção.";
 
@@ -303,17 +327,29 @@
 /* No comment provided by engineer. */
 "Done" = "Done";
 
+/* Message to the user to enable bluetooth */
+"Enable\nBluetooth" = "Enable\nBluetooth";
+
 /* The action hint of the workout mode toggle button when disabled */
 "Enables" = "Ativar";
 
+/* Caption for bolus screen notice when glucose data is missing or stale */
+"Enter a blood glucose from a meter for a recommended bolus amount." = "Enter a blood glucose from a meter for a recommended bolus amount.";
+
 /* Button text to begin entering a bolus */
 "Enter Bolus" = "Enter Bolus";
+
+/* Button text prompting manual glucose entry on bolus screen */
+"Enter Fingerstick Glucose" = "Enter Fingerstick Glucose";
 
 /* The placeholder text instructing users to enter a suspend treshold */
 "Enter suspend threshold" = "Digite o limite de suspensão";
 
 /* The alert title for an error while canceling a bolus */
 "Error Canceling Bolus" = "Erro Cancelando Bolus";
+
+/* Critical event log export error alert title */
+"Error Exporting Logs" = "Error Exporting Logs";
 
 /* The alert title for a resume error */
 "Error Resuming" = "Erro ao Retomar";
@@ -324,11 +360,20 @@
 /* The title of the alert describing a maximum bolus validation error */
 "Exceeds Maximum Bolus" = "Excede o Bolus Máximo";
 
+/* The title of the export critical event logs in support */
+"Export Critical Event Logs" = "Export Critical Event Logs";
+
+/* The export file name formatted string (1: timestamp) */
+"Export-%1$@" = "Export-%1$@";
+
 /* The alert title for a resume error */
 "Failed to Resume Insulin Delivery" = "Failed to Resume Insulin Delivery";
 
 /* Title of insulin model preset */
 "Fiasp" = "Fiasp";
+
+/* Label for manual glucose entry row on bolus screen */
+"Fingerstick Glucose" = "Fingerstick Glucose";
 
 /* The format string used to describe a finite workout targets duration */
 "For %1$@" = "Por %1$@";
@@ -400,6 +445,9 @@
 
 /* OK button title for alert shown when delivery status is uncertain */
 "Learn More" = "Learn More";
+
+/* Estimated remaining duration with less than a minute */
+"Less than a minute remaining" = "Less than a minute remaining";
 
 /* The loading message for the diagnostic report screen */
 "Loading..." = "Carregando...";
@@ -481,6 +529,9 @@
 
 /* Format string describing retrospective glucose prediction comparison. (1: Predicted glucose)(2: Actual glucose)(3: difference) */
 "prediction-description-retrospective-correction" = "prediction-description-retrospective-correction";
+
+/* Preparing critical event log text */
+"Preparing Critical Event Logs" = "Preparing Critical Event Logs";
 
 /* The title of the pump section in settings */
 "Pump" = "Bomba";
@@ -575,8 +626,14 @@
 /* Descriptive text for button to add pump device */
 "Tap here to set up a pump" = "Tap here to set up a pump";
 
+/* The descriptive text of the add service button in settings */
+"Tap here to set up a Service" = "Tap here to set up a Service";
+
 /* The subtitle of the cell displaying an action to resume insulin delivery */
 "Tap to Resume" = "Toque para retomar";
+
+/* Message presented in the status row instructing the user to tap this row to stop a bolus */
+"Tap to Stop" = "Tap to Stop";
 
 /* Alert message for an updated bolus recommendation */
 "The bolus recommendation has updated. Please reconfirm the bolus amount." = "The bolus recommendation has updated. Please reconfirm the bolus amount.";
@@ -595,6 +652,9 @@
 
 /* Title text for button to Therapy Settings */
 "Therapy Settings" = "Therapy Settings";
+
+/* Critical event log export error alert try again button */
+"Try Again" = "Try Again";
 
 /* Bluetooth off foreground alert body */
 "Turn on Bluetooth to receive alerts, alarms or sensor glucose readings." = "Turn on Bluetooth to receive alerts, alarms or sensor glucose readings.";
@@ -631,6 +691,9 @@
 
 /* Caption for bolus screen notice when no bolus is recommended due to prediction dropping below suspend threshold */
 "Your glucose is below or predicted to go below your suspend threshold, %@." = "Your glucose is below or predicted to go below your suspend threshold, %@.";
+
+/* Warning to ensure the carb entry is accurate */
+"Your glucose is rapidly rising. Check that any carbs you've eaten were logged. If you logged carbs, check that the time you entered lines up with when you started eating." = "Your glucose is rapidly rising. Check that any carbs you've eaten were logged. If you logged carbs, check that the time you entered lines up with when you started eating.";
 
 /* Caption for bolus screen notice when pump data is missing or stale */
 "Your pump data is stale. Loop cannot recommend a bolus amount." = "Your pump data is stale. Loop cannot recommend a bolus amount.";
