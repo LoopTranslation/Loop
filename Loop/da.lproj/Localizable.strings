@@ -253,7 +253,7 @@
 "Custom Override" = "Override";
 
 /* The title of the cell indicating a generic custom preset is enabled */
-"Custom Preset" = "Brugerdefineret preset";
+"Custom Preset" = "Presets";
 
 /* The title of the Loggly customer token credential */
 "Customer Token" = "Kunde token";
@@ -594,7 +594,7 @@
 "The maximum bolus setting must be configured before a bolus can be delivered." = "Maksimal bolus skal konfigureres før en bolus kan leveres.";
 
 /* Title text for button to Therapy Settings */
-"Therapy Settings" = "Indstillinger for terapi";
+"Therapy Settings" = "Indstillinger";
 
 /* Bluetooth off foreground alert body */
 "Turn on Bluetooth to receive alerts, alarms or sensor glucose readings." = "Slå bluetooth til for at modtage advarsler, alarmer eller blodsukkermålinger.";

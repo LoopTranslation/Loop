@@ -89,7 +89,7 @@
 "Vpi-5b-bY5.title" = "Kulhydrater";
 
 /* Class = "UILabel"; text = "Amount Consumed"; ObjectID = "Wx8-Tf-FnG"; */
-"Wx8-Tf-FnG.text" = "Forbrugt mængde";
+"Wx8-Tf-FnG.text" = "Antal kulhydrater";
 
 /* Class = "UIButton"; normalTitle = "🍕"; ObjectID = "xl9-Wc-Pdu"; */
 "xl9-Wc-Pdu.normalTitle" = "🍕";
