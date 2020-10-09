@@ -44,7 +44,7 @@
 "hZZ-2S-lrd.title" = "Kolhydrateffekter";
 
 /* Class = "UILabel"; text = "Observed changes in glucose, subtracting changes modeled from insulin delivery, can be used to estimate carbohydrate absorption."; ObjectID = "IxU-As-glo"; */
-"IxU-As-glo.text" = "Observerad glukosförändring, med borttagen förändring modellerad från insulindoser, kan användas för att uppskatta kolhydratabsorptionen.";
+"IxU-As-glo.text" = "Observerad blodglukosförändring, minus förändring modellerad från insulindoser, kan användas för en uppskattning av kolhydratabsorptionen.";
 
 /* Class = "UILabel"; text = "Detail"; ObjectID = "J7x-W5-gwo"; */
 "J7x-W5-gwo.text" = "Detalj";

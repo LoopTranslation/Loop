@@ -14,7 +14,7 @@
 "NSCameraUsageDescription" = "Kamera används för att skanna streckkoder";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Face ID används för att autentisera insulinbolus och för att spara ändringar i behandlingsinställningar.";
+"NSFaceIDUsageDescription" = "Face ID används för att autentisera insulinbolus och för att spara nya behandlingsinställningar.";
 
 /* Privacy - Health Share Usage Description */
 "NSHealthShareUsageDescription" = "Kolhydratdata från Apple Health-databasen används för att avgöra glukoseffekt. Blodglukosvärden från Apple Health-databasen används i diagram och för beräkning av förändring.";
