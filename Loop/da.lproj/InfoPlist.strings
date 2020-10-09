@@ -20,5 +20,5 @@
 "NSHealthShareUsageDescription" = "Måltidsdata fra Apple Sundhed bliver brugt til at glukosens effekt på dit blodsukker. Glukose data fra Apple Sundhed bliver brugt til at danne grafer og udregninger.";
 
 /* Privacy - Health Update Usage Description */
-"NSHealthUpdateUsageDescription" = "Kulhydrater indtastet i appen og på uret gemmes i Apple Sundhedsdatabasen. Blodsukkerdata hentet fra CGM gemmes sikkert i SundhedsKit.";
+"NSHealthUpdateUsageDescription" = "Kulhydrater indtastet i Loop og på uret gemmes i Apple Sundhedsdatabasen. Blodsukkerdata hentet fra CGM gemmes sikkert i SundhedsKit.";
 
