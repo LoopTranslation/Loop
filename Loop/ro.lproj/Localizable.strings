@@ -528,7 +528,7 @@
 "Predicted: %1$@\nActual: %2$@ (%3$@)" = "Prognozată: %1$@\nActuală: %2$@ (%3$@)";
 
 /* Format string describing retrospective glucose prediction comparison. (1: Predicted glucose)(2: Actual glucose)(3: difference) */
-"prediction-description-retrospective-correction" = "prediction-description-retrospective-correction";
+"prediction-description-retrospective-correction" = "predicție-descriere-retrospectivă-corecție";
 
 /* Preparing critical event log text */
 "Preparing Critical Event Logs" = "Pregătire jurnal de evenimente critice";
@@ -696,5 +696,5 @@
 "Your glucose is rapidly rising. Check that any carbs you've eaten were logged. If you logged carbs, check that the time you entered lines up with when you started eating." = "Glicemia ta crește rapid. Verifică că orice carbohidrați pe care i-ai mâncat au fost înregistrați. Dacă ați înregistrat carbohidrați, verificați dacă ora introdusă se potrivește cu momentul când ați început să mâncați.";
 
 /* Caption for bolus screen notice when pump data is missing or stale */
-"Your pump data is stale. Loop cannot recommend a bolus amount." = "Your pump data is stale. Loop cannot recommend a bolus amount.";
+"Your pump data is stale. Loop cannot recommend a bolus amount." = "Datele pompei sunt vechi. Loop nu poate stabili un bolus recomandat.";
 
