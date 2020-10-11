@@ -2,5 +2,5 @@
 "CFBundleName" = "Opettele";
 
 /* Privacy - Health Share Usage Description */
-"NSHealthShareUsageDescription" = "Terveys-sovelluksen ateriatietoja käytetään glukoosivaikutusten määrittämiseen. Terveys-sovelluksen glukoositietoja käytetään graafeissa ja laskelmissa. Unitietoja käytetään Apple Watch -komplikaation toiminnan optimointiin hereillä olon aikana.";
+"NSHealthShareUsageDescription" = "Terveystietokannasta peräisin olevan aterian tietoja käytetään glukoosivaikutusten määrittämiseen. Terveys-tietokannan glukoositietoja käytetään graafeissa ja momentum-laskelmiin. Terveystietokannan unitietoja käytetään Apple Watchin komplikaatiopäivitysten optimointiin silloin, kun olet hereillä.";
 
