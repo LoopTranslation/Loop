@@ -26,7 +26,7 @@
 "d3X-AN-tA5.text" = "g Total";
 
 /* Class = "UILabel"; text = "Future glucose is predicted by combining the effects of multiple inputs. Use this tool to toggle various inputs to see how they compare to the final prediction."; ObjectID = "D4C-I2-dhA"; */
-"D4C-I2-dhA.text" = "Det fremtidige blodsukker er beregnet ved at kombinere effekterne af mange inputs. Brug dette værktøj til at vælge mellem forskellige inputs, for at se hvordan de passer med den endelige forudsigelse.";
+"D4C-I2-dhA.text" = "Det fremtidige blodsukker er beregnet ved at kombinere effekterne af mange inputs. Brug dette værktøj til at vælge mellem forskellige inputs, for at se hvordan de påvirker den endelige forudsigelse.";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "d6m-qV-wWi"; */
 "d6m-qV-wWi.text" = "Label";
