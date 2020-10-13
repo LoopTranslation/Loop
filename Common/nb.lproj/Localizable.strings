@@ -47,7 +47,7 @@
 "Time in Range" = "Tid i målområdet";
 
 /* The short unit display string for international units of insulin */
-"U" = "E";
+"U" = "IE";
 
 /* Lesson subtitle */
 "Visualizes the most frequent glucose values by time of day" = "Visualiser de nyeste blodsukkerverdier etter tid på døgnet";

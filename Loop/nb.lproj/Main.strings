@@ -89,7 +89,7 @@
 "Vpi-5b-bY5.title" = "Karbohydrater";
 
 /* Class = "UILabel"; text = "Amount Consumed"; ObjectID = "Wx8-Tf-FnG"; */
-"Wx8-Tf-FnG.text" = "Amount Consumed";
+"Wx8-Tf-FnG.text" = "Mengde karbohydrater\n(Mengde inntatt)";
 
 /* Class = "UIButton"; normalTitle = "🍕"; ObjectID = "xl9-Wc-Pdu"; */
 "xl9-Wc-Pdu.normalTitle" = "🍕";

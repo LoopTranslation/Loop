@@ -42,7 +42,7 @@
 
 /* The recovery message displayed after a bolus attempt fails
    The recovery message displayed after a potential carb entry send attempt fails */
-"Make sure your iPhone is nearby and try again." = "Make sure your iPhone is nearby and try again.";
+"Make sure your iPhone is nearby and try again." = "Sjekk at din iPhone er i nærheten og prøv igjen.";
 
 /* The short unit display string for milligrams of glucose per decilter */
 "mg/dL" = "mg/dL";
@@ -66,19 +66,19 @@
 "Override" = "Overstyr";
 
 /* Alert message for updated bolus recommendation on Apple Watch */
-"Please reconfirm the bolus amount." = "Please reconfirm the bolus amount.";
+"Please reconfirm the bolus amount." = "Vennligst bekreft bolus på nytt.";
 
 /* Title for sheet to enable/disable pre-meal on watch */
-"Pre-Meal" = "Pre-Meal";
+"Pre-Meal" = "Pre-måltid";
 
 /* The text for the Watch button for enabling a custom preset */
-"Preset" = "Preset";
+"Preset" = "Overstyring";
 
 /* Format string for combining localized numeric value and unit. (1: numeric value)(2: unit) */
 "QUANTITY_VALUE_AND_UNIT" = "%1$@ %2$@";
 
 /* Recommended bolus amount label on Apple Watch */
-"REC: %@ U" = "REC: %@ U";
+"REC: %@ U" = "ANB: %@ IE";
 
 /* The label and value showing the recommended bolus */
 "Rec: %@ U" = "Rec: %@ E";
@@ -100,7 +100,7 @@
 "Send Failed" = "Sending mislyktes";
 
 /* Help text for bolus confirmation on Apple Watch */
-"Turn Digital Crown\nto bolus" = "Turn Digital Crown\nto bolus";
+"Turn Digital Crown\nto bolus" = "Snu \"Digital Crown\" for å gi bolus";
 
 /* The short unit display string for international units of insulin */
 "U" = "E";
