@@ -14,7 +14,7 @@
 "NSCameraUsageDescription" = "Kameraet brukes til å skanne strekkoder for enheter";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Face ID brukes til å bekrefte identitet ved insulin bolus og lagre endringer i innstillinger.";
+"NSFaceIDUsageDescription" = "Face ID brukes til å bekrefte identitet ved bolus og ved lagring av endringer i innstillingene.";
 
 /* Privacy - Health Share Usage Description */
 "NSHealthShareUsageDescription" = "Måltider med karbohydrater lagret i helsedatabasen brukes til å bestemme blodsukkereffekter. Blodsukkerdata fra helsedatabasen brukes til beregning av grafer og momentum. Søvndata fra helsedatabasen brukes til å forbedre Apple Watch-komplikasjonen.";

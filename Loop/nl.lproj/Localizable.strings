@@ -20,7 +20,7 @@
 "%@ absorbed" = "%@ opgenomen";
 
 /* Estimated remaining duration with more than a minute */
-"%@ remaining" = "%@ remaining";
+"%@ remaining" = "%@ resterend";
 
 /* The subtitle format describing total insulin. (1: localized insulin total) */
 "%@ U Total" = "%@ E totaal";
@@ -65,7 +65,7 @@
 "30 min comparison of glucose prediction vs actual, continued with decay over 60 min" = "30 min vergelijking van glucose voorspelling versus actueel, gevolgd door afbouw over 60 min";
 
 /* Estimated remaining duration with a few seconds */
-"A few seconds remaining" = "A few seconds remaining";
+"A few seconds remaining" = "Nog een paar seconden te gaan";
 
 /* Alert message for a manual glucose entry out of range error */
 "A manual glucose entry must be between %@ and %@" = "Een handmatige glucose invoer moet tussen %1$@ en %2$@ liggen";
@@ -168,10 +168,10 @@
 "Basal Rates" = "Basaal waardes";
 
 /* Message to the user to that the bluetooth is off */
-"Bluetooth\nOff" = "Bluetooth\nOff";
+"Bluetooth\nOff" = "Bluetooth uit";
 
 /* Message to the user that bluetooth is unavailable to the app */
-"Bluetooth\nUnavailable" = "Bluetooth\nUnavailable";
+"Bluetooth\nUnavailable" = "Bluetooth\nniet beschikbaar";
 
 /* Bluetooth off alert title */
 "Bluetooth Off Alert" = "Bluetooth Uit Waarschuwing";
@@ -262,10 +262,10 @@
 "Correction Range" = "Correctie bereik";
 
 /* Critical event log ready text */
-"Critical Event Log Ready" = "Critical Event Log Ready";
+"Critical Event Log Ready" = "Kritische gebeurtenis log klaar";
 
 /* Critical event log export title */
-"Critical Event Logs" = "Critical Event Logs";
+"Critical Event Logs" = "Kritieke gebeurtenissen logboeken";
 
 /* Critical event log export error alert message */
 "Critical Event Logs were not able to be exported." = "Critical Event Logs were not able to be exported.";

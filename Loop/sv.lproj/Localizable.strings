@@ -146,7 +146,7 @@
 "API Secret" = "API Secret";
 
 /* No comment provided by engineer. */
-"Are you sure you want to delete all your %@ Data?\n(This action is not reversible)" = "Vill du ta bort alla dina %@ Data?\n(Denna åtgärd är inte reversibel)";
+"Are you sure you want to delete all your %@ Data?\n(This action is not reversible)" = "Vill du ta bort alla dina %@data?\n(Denna åtgärd är inte reversibel)";
 
 /* Confirmation message for deleting a CGM */
 "Are you sure you want to delete this CGM?" = "Är du säker på att du vill radera denna CGM?";
@@ -190,10 +190,10 @@
 "Bolus Summary" = "Bolus sammanfattning";
 
 /* The format string for bolus progress. (1: delivered volume)(2: total volume) */
-"Bolused %1$@ of %2$@" = "Givit bolus %1$@ av %2$@";
+"Bolused %1$@ of %2$@" = "Gett %1$@ av %2$@ i bolus";
 
 /* The format string for bolus in progress showing total volume. (1: total volume) */
-"Bolusing %1$@" = "Ger bolus %1$@";
+"Bolusing %1$@" = "Ger %1$@ i bolus";
 
 /* The title of the cancel action in an action sheet */
 "Cancel" = "Avbryt";
@@ -456,7 +456,7 @@
 "Loop Failure" = "Loop-fel";
 
 /* Bluetooth unavailable alert body. */
-"Loop has detected an issue with your Bluetooth settings, and will not work successfully until Bluetooth is enabled. You will not receive glucose readings, or be able to bolus." = "Loop har upptäckt ett problem med dina Bluetooth-inställningar och kommer inte att fungera förrän Bluetooth är aktiverat. Du kommer varken att kunna se blodsockervärde eller ge bolus.";
+"Loop has detected an issue with your Bluetooth settings, and will not work successfully until Bluetooth is enabled. You will not receive glucose readings, or be able to bolus." = "Loop har upptäckt ett problem med dina Bluetooth-inställningar och kommer inte att fungera förrän Bluetooth är aktiverat. Du kommer varken att kunna se dina blodsockervärden eller att kunna ge någon bolus.";
 
 /* The notification alert describing a long-lasting loop failure. The substitution parameter is the time interval since the last loop */
 "Loop has not completed successfully in %@" = "Loop har inte lyckats köra på %@";
