@@ -516,7 +516,7 @@
 "Override Presets" = "Förinställningar för Undantag";
 
 /* The label of the pre-meal mode toggle button */
-"Pre-Meal Targets" = "Målvärden för Före måltid";
+"Pre-Meal Targets" = "Målvärden före en måltid";
 
 /* Message when offering bolus recommendation even though bg is below range and minBG is in future. (1: glucose time)(2: glucose number) */
 "Predicted glucose at %1$@ is %2$@." = "Förväntat blodglukosvärde vid %1$@ är %2$@.";
