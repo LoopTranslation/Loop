@@ -504,10 +504,10 @@
 "No Pump Configured" = "Pumppua ei ole määritetty";
 
 /* Title for bolus screen notice when glucose data is missing or stale */
-"No Recent Glucose Data" = "Ei viimeaikaisia glukoositietoja";
+"No Recent Glucose Data" = "Ei viimeisimpiä glukoositietoja";
 
 /* Title for bolus screen notice when pump data is missing or stale */
-"No Recent Pump Data" = "Ei viimeaikaisia pumpputietoja";
+"No Recent Pump Data" = "Ei viimeisimpiä pumpun tietoja";
 
 /* The title of the notification action to acknowledge a device alert */
 "OK" = "OK";
