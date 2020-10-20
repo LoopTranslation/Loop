@@ -2,7 +2,7 @@
 "\n            Critical Alerts will always play a sound and appear on the Lock screen even if your iPhone is muted or Do Not Disturb is on.\n            " = "\n            Kriittiset hälytykset toistavat aina äänen ja näkyvät lukitulla näytöllä, vaikka iPhone olisi mykistetty tai Älä häiritse -tilassa.\n            ";
 
 /* Manage Notifications in Settings descriptive text */
-"\n            Notifications appear on your Lock screen or pop up while you’re using other apps.\n            \n            Notifications give you important (appName) app information without requiring you to open the app.  You can customize when and how you want to receive these notifications.\n            " = "\n            Ilmoitukset näkyvät lukitulla näytöllä tai tulevat näkyviin, kun käytät muita sovelluksia\n            \n            Ilmoitukset antavat tärkeää (appName) -sovelluksen tietoa ilman, että avaat sovellusta. Voit mukauttaa milloin ja miten haluat vastaanottaa nämä ilmoitukset.\n            ";
+"\n            Notifications appear on your Lock screen or pop up while you’re using other apps.\n            \n            Notifications give you important (appName) app information without requiring you to open the app.  You can customize when and how you want to receive these notifications.\n            " = "\n            Ilmoitukset näkyvät lukitulla näytöllä tai tulevat näkyviin, kun käytät muita sovelluksia.\n            \n            Ilmoitukset antavat tärkeää (appName)-sovelluksen tietoa ilman, että avaat sovellusta. Voit mukauttaa milloin ja miten haluat vastaanottaa nämä ilmoitukset.\n            ";
 
 /* No comment provided by engineer. */
 " " = " ";
@@ -92,10 +92,10 @@
 "Active Carbohydrates: %@" = "Aktiivinen hiilihydraatti: %@";
 
 /* Title describing quantity of still-absorbing carbohydrates */
-"Active Carbs" = "Aktiivinen hiilihydraatti";
+"Active Carbs" = "Akt. hiilari";
 
 /* The title of the Insulin On-Board graph */
-"Active Insulin" = "Aktiivinen insuliini";
+"Active Insulin" = "Akt. insuliini";
 
 /* The string format describing active insulin. (1: localized insulin value description) */
 "Active Insulin: %@" = "Aktiivinen insuliini: %@";
@@ -255,20 +255,20 @@
 "Configuration Error: %1$@" = "Määritysvirhe: %1$@";
 
 /* The title of the continuous glucose monitor section in settings */
-"Continuous Glucose Monitor" = "Glukoosinseuranta (CGM)";
+"Continuous Glucose Monitor" = "Jatkuva glukoosinseuranta (CGM)";
 
 /* The title of the glucose target range schedule screen
    The title text for the glucose target range schedule */
 "Correction Range" = "Korjausalue";
 
 /* Critical event log ready text */
-"Critical Event Log Ready" = "Kriittisten tapahtumien loki valmis";
+"Critical Event Log Ready" = "Tärkeiden tapahtumien loki valmis";
 
 /* Critical event log export title */
-"Critical Event Logs" = "Kriittisten tapahtumien loki";
+"Critical Event Logs" = "Tärkeiden tapahtumien loki";
 
 /* Critical event log export error alert message */
-"Critical Event Logs were not able to be exported." = "Kriittisten tapahtumien lokia ei voitu viedä.";
+"Critical Event Logs were not able to be exported." = "Tärkeiden tapahtumien lokia ei voitu viedä.";
 
 /* Message when offering bolus recommendation even though bg is below range. (1: glucose value) */
 "Current glucose of %1$@ is below correction range." = "Nykyinen glukoosi %1$@ on korjausalueen alapuolella.";
@@ -337,7 +337,7 @@
 "Enter a blood glucose from a meter for a recommended bolus amount." = "Syötä sormenpäästä mitattu glukoosiarvo saadaksesi suositellun bolusmäärän.";
 
 /* Button text to begin entering a bolus */
-"Enter Bolus" = "Anna bolus";
+"Enter Bolus" = "Syötä bolus";
 
 /* Button text prompting manual glucose entry on bolus screen */
 "Enter Fingerstick Glucose" = "Syötä mitattu glukoosiarvo";
@@ -361,7 +361,7 @@
 "Exceeds Maximum Bolus" = "Ylittää maksimiboluksen";
 
 /* The title of the export critical event logs in support */
-"Export Critical Event Logs" = "Vie kriittisten tapahtumien loki";
+"Export Critical Event Logs" = "Vie tärkeiden tapahtumien loki";
 
 /* The export file name formatted string (1: timestamp) */
 "Export-%1$@" = "Vienti-%1$@";
@@ -373,7 +373,7 @@
 "Fiasp" = "Fiasp";
 
 /* Label for manual glucose entry row on bolus screen */
-"Fingerstick Glucose" = "Mitattu glukoosiarvo";
+"Fingerstick Glucose" = "Mitattu glukoosi";
 
 /* The format string used to describe a finite workout targets duration */
 "For %1$@" = "%1$@ ajaksi";
@@ -465,10 +465,10 @@
 "Loop will not work successfully until Bluetooth is enabled. You will not recieve glucose readings, or be able to bolus." = "Loop ei toimi oikein ennen kuin Bluetooth on otettu käyttöön. Et saa glukoosilukemia, etkä voi antaa bolusta.";
 
 /* Manage Critical Alerts in Settings button text */
-"Manage Critical Alerts in Settings" = "Tärkeiden hälytysten hallinta asetuksissa";
+"Manage Critical Alerts in Settings" = "Tärkeiden hälytysten hallinta Asetuksissa";
 
 /* Manage Notifications in Settings button text */
-"Manage Notifications in Settings" = "Ilmoitusten hallinta asetuksissa";
+"Manage Notifications in Settings" = "Ilmoitusten hallinta Asetuksissa";
 
 /* Title for bolus entry screen when also entering carbs */
 "Meal Bolus" = "Ateriabolus";
@@ -504,10 +504,10 @@
 "No Pump Configured" = "Pumppua ei ole määritetty";
 
 /* Title for bolus screen notice when glucose data is missing or stale */
-"No Recent Glucose Data" = "Ei viimeisimpiä glukoositietoja";
+"No Recent Glucose Data" = "Ei viimeaikaisia glukoositietoja";
 
 /* Title for bolus screen notice when pump data is missing or stale */
-"No Recent Pump Data" = "Ei viimeisimpiä pumpun tietoja";
+"No Recent Pump Data" = "Ei viimeaikaisia pumpun tietoja";
 
 /* The title of the notification action to acknowledge a device alert */
 "OK" = "OK";
@@ -531,7 +531,7 @@
 "prediction-description-retrospective-correction" = "ennuste-kuvaus-retrospektiivinen-korjaus";
 
 /* Preparing critical event log text */
-"Preparing Critical Event Logs" = "Valmistellaan kriittisten tapahtumien lokia";
+"Preparing Critical Event Logs" = "Valmistellaan tärkeiden tapahtumien lokia";
 
 /* The title of the pump section in settings */
 "Pump" = "Pumppu";
@@ -540,7 +540,7 @@
 "Pump Battery Low" = "Pumpun paristo vähissä";
 
 /* The error message when pump data is too old to be used. (1: pump data age in minutes) */
-"Pump data is %1$@ old" = "Pumpputieto on %1$@ vanha";
+"Pump data is %1$@ old" = "Pumpun tiedot ovat %1$@ vanhat";
 
 /* Details for configuration error when pump manager is missing */
 "Pump Manager" = "Pumpun hallinta";
@@ -633,7 +633,7 @@
 "Tap to Resume" = "Jatka annostelua";
 
 /* Message presented in the status row instructing the user to tap this row to stop a bolus */
-"Tap to Stop" = "Pysäytä napauttamalla";
+"Tap to Stop" = "Pysäytä";
 
 /* Alert message for an updated bolus recommendation */
 "The bolus recommendation has updated. Please reconfirm the bolus amount." = "Bolussuositus on päivittynyt. Vahvista bolus uudelleen.";
@@ -651,7 +651,7 @@
 "The maximum bolus setting must be configured before a bolus can be delivered." = "Suurin sallittu bolus -asetus täytyy määrittää ennen kuin bolus voidaan annostella.";
 
 /* Title text for button to Therapy Settings */
-"Therapy Settings" = "Hoidon asetukset";
+"Therapy Settings" = "Hoitoasetukset";
 
 /* Critical event log export error alert try again button */
 "Try Again" = "Yritä uudelleen";
@@ -678,7 +678,7 @@
 "until %@" = "%@ asti";
 
 /* The title of the alert controller used to select a duration for workout targets */
-"Use Workout Glucose Targets" = "Käytä liikuntatilan glukoositavoitetteita";
+"Use Workout Glucose Targets" = "Käytä liikuntatilan glukoositavoitetta";
 
 /* Title of insulin model setting */
 "Walsh" = "Walsh";
@@ -687,7 +687,7 @@
 "When current or forecasted glucose is below the suspend threshold, Loop will not recommend a bolus, and will always recommend a temporary basal rate of 0 units per hour." = "Kun nykyinen tai ennustettu glukoosi on pysäytysrajan alapuolella, Loop ei suosittele bolusta ja suosittelee aina tilapäiseksi basaaliksi 0 yksikköä tunnissa.";
 
 /* The label of the workout mode toggle button */
-"Workout Targets" = "Liikuntatavoitteet";
+"Workout Targets" = "Liikuntatavoite";
 
 /* Caption for bolus screen notice when no bolus is recommended due to prediction dropping below suspend threshold */
 "Your glucose is below or predicted to go below your suspend threshold, %@." = "Glukoosi on alle tai sen ennustetaan alittavan pysäytysrajan %@.";
