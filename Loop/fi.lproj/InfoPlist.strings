@@ -17,8 +17,8 @@
 "NSFaceIDUsageDescription" = "Face ID:tä käytetään boluksen vahvistamiseen ja hoitoasetusten tallentamiseen.";
 
 /* Privacy - Health Share Usage Description */
-"NSHealthShareUsageDescription" = "Terveystietokannasta peräisin olevan aterian tietoja käytetään glukoosivaikutusten määrittämiseen. Terveys-tietokannan glukoositietoja käytetään graafeihin ja momentum-laskentaan. Terveys-tietokannan unitietoja käytetään Apple Watchin komplikaatioiden toiminnan optimointiin.";
+"NSHealthShareUsageDescription" = "Terveystietokannasta peräisin olevan aterian tietoja käytetään glukoosivaikutusten määrittämiseen. Terveystietokannan glukoositietoja käytetään graafeissa ja glukoosin liikkeen laskennassa. Terveystietokannan unitietoja käytetään Apple Watchin komplikaatioiden toiminnan optimointiin.";
 
 /* Privacy - Health Update Usage Description */
-"NSHealthUpdateUsageDescription" = "Sovellukseen ja kelloon syötetyt hiilihydraattiateriatiedot tallennetaan Terveys-tietokantaan. Jatkuvan glukoosiseurannan tiedot tallennetaan turvallisesti HealthKitiin.";
+"NSHealthUpdateUsageDescription" = "Sovellukseen ja kelloon syötetyt hiilihydraattiateriatiedot tallennetaan Terveystietokantaan. Jatkuvan glukoosiseurannan tiedot tallennetaan turvallisesti HealthKitiin.";
 

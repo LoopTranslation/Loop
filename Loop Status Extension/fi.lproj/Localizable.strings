@@ -14,10 +14,10 @@
 "%1$@ v%2$@" = "%1$@ v%2$@";
 
 /* Widget label title describing the active carbs */
-"Active Carbs" = "Aktiivinen hiilihydraatti";
+"Active Carbs" = "Akt. hiilari";
 
 /* Widget label title describing the active insulin */
-"Active Insulin" = "Aktiivinen insuliini";
+"Active Insulin" = "Akt. insuliini";
 
 /* The short unit display string for decibles */
 "dB" = "dB";
