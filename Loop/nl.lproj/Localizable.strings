@@ -268,7 +268,7 @@
 "Critical Event Logs" = "Kritieke gebeurtenissen logboeken";
 
 /* Critical event log export error alert message */
-"Critical Event Logs were not able to be exported." = "Critical Event Logs were not able to be exported.";
+"Critical Event Logs were not able to be exported." = "Kritieke gebeurtenislogboeken konden niet worden geëxporteerd.";
 
 /* Message when offering bolus recommendation even though bg is below range. (1: glucose value) */
 "Current glucose of %1$@ is below correction range." = "Huidige glucose van %1$@ is lager dan het correctie bereik";
@@ -328,19 +328,19 @@
 "Done" = "Voltooid";
 
 /* Message to the user to enable bluetooth */
-"Enable\nBluetooth" = "Enable\nBluetooth";
+"Enable\nBluetooth" = "Bluetooth inschakelen";
 
 /* The action hint of the workout mode toggle button when disabled */
 "Enables" = "Inschakelen";
 
 /* Caption for bolus screen notice when glucose data is missing or stale */
-"Enter a blood glucose from a meter for a recommended bolus amount." = "Enter a blood glucose from a meter for a recommended bolus amount.";
+"Enter a blood glucose from a meter for a recommended bolus amount." = "Verkrijg een bloed glucose waarde van een meter voor een aanbevolen bolus hoeveelheid.";
 
 /* Button text to begin entering a bolus */
 "Enter Bolus" = "Bolus invoeren";
 
 /* Button text prompting manual glucose entry on bolus screen */
-"Enter Fingerstick Glucose" = "Enter Fingerstick Glucose";
+"Enter Fingerstick Glucose" = "Vul glucose van vingerprik in";
 
 /* The placeholder text instructing users to enter a suspend treshold */
 "Enter suspend threshold" = "Voer drempel voor onderbreking insuline in";
@@ -349,7 +349,7 @@
 "Error Canceling Bolus" = "Fout bij annuleren van bolus";
 
 /* Critical event log export error alert title */
-"Error Exporting Logs" = "Error Exporting Logs";
+"Error Exporting Logs" = "Fout bij exporteren logboeken";
 
 /* The alert title for a resume error */
 "Error Resuming" = "Fout bij vervolgen";
@@ -361,10 +361,10 @@
 "Exceeds Maximum Bolus" = "Overschrijdt maximale bolus";
 
 /* The title of the export critical event logs in support */
-"Export Critical Event Logs" = "Export Critical Event Logs";
+"Export Critical Event Logs" = "Exporteer kritieke gebeurtenislogboeken";
 
 /* The export file name formatted string (1: timestamp) */
-"Export-%1$@" = "Export-%1$@";
+"Export-%1$@" = "Exporteren: %1$@";
 
 /* The alert title for a resume error */
 "Failed to Resume Insulin Delivery" = "Kan de insulinetoevoer niet hervatten";
@@ -373,7 +373,7 @@
 "Fiasp" = "Fiasp";
 
 /* Label for manual glucose entry row on bolus screen */
-"Fingerstick Glucose" = "Fingerstick Glucose";
+"Fingerstick Glucose" = "Vingerprik glucose";
 
 /* The format string used to describe a finite workout targets duration */
 "For %1$@" = "Voor %1$@";
@@ -447,7 +447,7 @@
 "Learn More" = "Leer meer";
 
 /* Estimated remaining duration with less than a minute */
-"Less than a minute remaining" = "Less than a minute remaining";
+"Less than a minute remaining" = "Minder dan een minuut resterend";
 
 /* The loading message for the diagnostic report screen */
 "Loading..." = "Laden...";
@@ -531,7 +531,7 @@
 "prediction-description-retrospective-correction" = "voorspelling-beschrijving-retrospectief-correctie";
 
 /* Preparing critical event log text */
-"Preparing Critical Event Logs" = "Preparing Critical Event Logs";
+"Preparing Critical Event Logs" = "Kritieke gebeurtenislogboeken voorbereiden";
 
 /* The title of the pump section in settings */
 "Pump" = "Pomp";
@@ -627,13 +627,13 @@
 "Tap here to set up a pump" = "Tik hier om een pomp in te stellen";
 
 /* The descriptive text of the add service button in settings */
-"Tap here to set up a Service" = "Tap here to set up a Service";
+"Tap here to set up a Service" = "Tik hier om een Service in te stellen";
 
 /* The subtitle of the cell displaying an action to resume insulin delivery */
 "Tap to Resume" = "Klik om te herstarten";
 
 /* Message presented in the status row instructing the user to tap this row to stop a bolus */
-"Tap to Stop" = "Tap to Stop";
+"Tap to Stop" = "Tik om te stoppen";
 
 /* Alert message for an updated bolus recommendation */
 "The bolus recommendation has updated. Please reconfirm the bolus amount." = "De bolusaanbeveling is bijgewerkt. Bevestig de bolus opnieuw.";
@@ -654,7 +654,7 @@
 "Therapy Settings" = "Therapie instellingen";
 
 /* Critical event log export error alert try again button */
-"Try Again" = "Try Again";
+"Try Again" = "Probeer opnieuw";
 
 /* Bluetooth off foreground alert body */
 "Turn on Bluetooth to receive alerts, alarms or sensor glucose readings." = "Schakel Bluetooth in om waarschuwingen, alarmen of sensorglucosewaardes te ontvangen.";
@@ -693,7 +693,7 @@
 "Your glucose is below or predicted to go below your suspend threshold, %@." = "Uw glucose is onder of verwacht dat u onder uw opschortingsdrempel komt, %@.";
 
 /* Warning to ensure the carb entry is accurate */
-"Your glucose is rapidly rising. Check that any carbs you've eaten were logged. If you logged carbs, check that the time you entered lines up with when you started eating." = "Your glucose is rapidly rising. Check that any carbs you've eaten were logged. If you logged carbs, check that the time you entered lines up with when you started eating.";
+"Your glucose is rapidly rising. Check that any carbs you've eaten were logged. If you logged carbs, check that the time you entered lines up with when you started eating." = "Je glucose stijgt snel. Controleer of alle koolhydraten die je hebt gegeten zijn geregistreerd. Als je koolhydraten hebt geregistreerd, controleer dan de aanvangstijd maaltijd met wat je ingevoerd hebt.";
 
 /* Caption for bolus screen notice when pump data is missing or stale */
 "Your pump data is stale. Loop cannot recommend a bolus amount." = "Je pompgegevens zijn verouderd. Loop kan geen bolus geven.";
