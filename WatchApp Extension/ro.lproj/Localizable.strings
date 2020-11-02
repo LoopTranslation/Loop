@@ -84,7 +84,7 @@
 "Rec: %@ U" = "Rec: %@ U";
 
 /* Indicator that recommended bolus computation is in progress on Apple Watch */
-"REC: Calculating..." = "REC: Calculating...";
+"REC: Calculating..." = "Se calculează...";
 
 /* HUD row title for remaining reservoir volume */
 "Reservoir Volume" = "Volum rezervor";
@@ -100,7 +100,7 @@
 "Send Failed" = "Transmitere eșuată";
 
 /* Help text for bolus confirmation on Apple Watch */
-"Turn Digital Crown\nto bolus" = "Turn Digital Crown\nto bolus";
+"Turn Digital Crown\nto bolus" = "Rotiți pentru a confirma bolusul";
 
 /* The short unit display string for international units of insulin */
 "U" = "U";
