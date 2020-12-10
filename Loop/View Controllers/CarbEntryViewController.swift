@@ -216,23 +216,29 @@ final class CarbEntryViewController: LoopChartsTableViewController, Identifiable
     private var foodKeyboard: EmojiInputController!
     
     private func updateDisplayAccurateCarbEntryWarning() {
-        deviceManager.loopManager.getLoopState { [weak self] (_, state) in
-            let endDate = Date()
-            let startDate = endDate.addingTimeInterval(.minutes(-20))
-            let threshold = HKQuantity(unit: GlucoseEffectVelocity.unit, doubleValue: 3)
+        let now = Date()
+        let startDate = now.addingTimeInterval(-LoopConstants.missedMealWarningGlucoseRecencyWindow)
 
-            let filteredInsulinCounteractionEffects = state.insulinCounteractionEffects.filterDateRange(startDate, endDate)
-
+        deviceManager.glucoseStore.getGlucoseSamples(start: startDate, end: nil) { [weak self] (result) -> Void in
             DispatchQueue.main.async {
-                // at least 3 insulin counteraction effects are required to calculate the average
-                guard filteredInsulinCounteractionEffects.count >= 3,
-                    let averageInsulinCounteractionEffect = filteredInsulinCounteractionEffects.average(unit: GlucoseEffectVelocity.unit) else
-                {
+                switch result {
+                case .failure:
                     self?.shouldDisplayAccurateCarbEntryWarning = false
-                    return
+                case .success(let samples):
+                    let filteredSamples = samples.filterDateRange(startDate, now)
+                    guard let startSample = filteredSamples.first, let endSample = filteredSamples.last else {
+                        self?.shouldDisplayAccurateCarbEntryWarning = false
+                        return
+                    }
+                    let duration = endSample.startDate.timeIntervalSince(startSample.startDate)
+                    guard duration >= LoopConstants.missedMealWarningVelocitySampleMinDuration else {
+                        self?.shouldDisplayAccurateCarbEntryWarning = false
+                        return
+                    }
+                    let delta = endSample.quantity.doubleValue(for: .milligramsPerDeciliter) - startSample.quantity.doubleValue(for: .milligramsPerDeciliter)
+                    let velocity = delta / duration.minutes // Unit = mg/dL/m
+                    self?.shouldDisplayAccurateCarbEntryWarning = velocity > LoopConstants.missedMealWarningGlucoseRiseThreshold
                 }
-
-                self?.shouldDisplayAccurateCarbEntryWarning = averageInsulinCounteractionEffect >= threshold
             }
         }
     }
@@ -347,6 +353,11 @@ final class CarbEntryViewController: LoopChartsTableViewController, Identifiable
                 cell.titleLabel.text = NSLocalizedString("Time", comment: "Title of the carb entry date picker cell")
                 cell.datePicker.isEnabled = isSampleEditable
                 cell.datePicker.datePickerMode = .dateAndTime
+                #if swift(>=5.2)
+                    if #available(iOS 14.0, *) {
+                        cell.datePicker.preferredDatePickerStyle = .wheels
+                    }
+                #endif
                 cell.datePicker.maximumDate = date.addingTimeInterval(.hours(1))
                 cell.datePicker.minimumDate = date.addingTimeInterval(.hours(-12))
                 cell.datePicker.minuteInterval = 1
