@@ -22,3 +22,6 @@
 /* Privacy - Health Update Usage Description */
 "NSHealthUpdateUsageDescription" = "Angitte karbohydrater i matdataene som tastes inn i appen blir lagret i Health-databasen.";
 
+/* Privacy - Siri Usage Description */
+"NSSiriUsageDescription" = "Loop bruker Siri til å la deg angi forhåndsinnstillinger for overstyring med stemmen din.";
+

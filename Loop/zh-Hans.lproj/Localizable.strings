@@ -10,8 +10,20 @@
 /* The string format appended to active insulin that describes pending insulin. (1: pending insulin) */
 " (pending: %@)" = " (待执行: %@)";
 
+/* Status row title for premeal override enabled (leading space is to separate from symbol) */
+" Pre-meal Preset" = " Pre-meal Preset";
+
+/* Status row title for workout override enabled (leading space is to separate from symbol) */
+" Workout Preset" = " Workout Preset";
+
+/* String denoting lack of a recommended bolus amount in the simple bolus calculator */
+"–" = "–";
+
 /* No comment provided by engineer. */
-"--" = "--";
+"– –" = "– –";
+
+/* No glucose value representation (3 dashes for mg/dL) */
+"– – –" = "– – –";
 
 /* The format for an active override preset. (1: preset symbol)(2: preset name) */
 "%@ %@" = "%1$@ %2$@";
@@ -39,6 +51,9 @@
 
 /* Formats (1: carb start time) and (2: carb absorption duration) */
 "%1$@ + %2$@" = "%1$@ + %2$@";
+
+/* Alert message for closed loop off informational modal. (1: app name) */
+"%1$@ is operating with Closed Loop in the OFF position. Your pump and CGM will continue operating, but your basal insulin will not adjust automatically.\n\n" = "%1$@ is operating with Closed Loop in the OFF position. Your pump and CGM will continue operating, but your basal insulin will not adjust automatically.\n\n";
 
 /* Message for alert shown when delivery status is uncertain. (1: app name) */
 "%1$@ is unable to communicate with your insulin pump. The app will continue trying to reach your pump, but insulin delivery information cannot be updated and no automation can continue.\nYou can wait several minutes to see if the issue resolves or tap the button below to learn more about other options." = "%1$@ is unable to communicate with your insulin pump. The app will continue trying to reach your pump, but insulin delivery information cannot be updated and no automation can continue.\nYou can wait several minutes to see if the issue resolves or tap the button below to learn more about other options.";
@@ -69,6 +84,9 @@
 
 /* Alert message for a manual glucose entry out of range error */
 "A manual glucose entry must be between %@ and %@" = "A manual glucose entry must be between %1$@ and %2$@";
+
+/* Alert message for a manual glucose entry out of range error. (1: acceptable lower bound) (2: acceptable upper bound) */
+"A manual glucose entry must be between %1$@ and %2$@" = "A manual glucose entry must be between %1$@ and %2$@";
 
 /* Subtitle of Fiasp preset */
 "A model based on the published absorption of Fiasp insulin." = "基于公布的Fiasp胰岛素吸收的模型";
@@ -116,6 +134,9 @@
 
 /* Title text for button to set up a service */
 "Add Service" = "Add Service";
+
+/* No comment provided by engineer. */
+"Adjusted for" = "Adjusted for";
 
 /* Alert Permissions button text
    Notification & Critical Alert Permissions screen title */
@@ -208,6 +229,9 @@
    Label for carb entry row on bolus screen */
 "Carb Entry" = "Carb Entry";
 
+/* Alert title for a carb entry too large error */
+"Carb Entry Too Large" = "Carb Entry Too Large";
+
 /* The title of the carb ratios schedule screen
    The title text for the carb ratio schedule */
 "Carb Ratios" = "碳水化合物吸收率";
@@ -245,6 +269,12 @@
 /* The title text for the looping enabled switch cell */
 "Closed Loop" = "开启闭环";
 
+/* Alert title for closed loop off informational modal */
+"Closed Loop OFF" = "Closed Loop OFF";
+
+/* The description text for the looping enabled switch cell when closed loop is not allowed */
+"Closed Loop requires an active CGM Sensor Session" = "Closed Loop requires an active CGM Sensor Session";
+
 /* The title of the action used to dismiss an error alert */
 "com.loudnate.LoopKit.errorAlertActionTitle" = "OK";
 
@@ -270,6 +300,9 @@
 /* Critical event log export error alert message */
 "Critical Event Logs were not able to be exported." = "Critical Event Logs were not able to be exported.";
 
+/* Label for glucose entry row on simple bolus screen */
+"Current Glucose" = "Current Glucose";
+
 /* Message when offering bolus recommendation even though bg is below range. (1: glucose value) */
 "Current glucose of %1$@ is below correction range." = "当前葡萄糖%1$@低于修正范围";
 
@@ -281,9 +314,6 @@
 
 /* The title of the Loggly customer token credential */
 "Customer Token" = "Customer Token";
-
-/* Title of the carb entry date picker cell */
-"Date" = "Date";
 
 /* The short unit display string for decibles */
 "dB" = "dB";
@@ -321,7 +351,9 @@
 /* The action hint of the workout mode toggle button when enabled */
 "Disables" = "禁用";
 
-/* Default alert dismissal */
+/* Default alert dismissal
+   Dismiss button for the invalid adverse event report URL alert.
+   The button label of the action used to dismiss an error alert */
 "Dismiss" = "Dismiss";
 
 /* No comment provided by engineer. */
@@ -341,6 +373,9 @@
 
 /* Button text prompting manual glucose entry on bolus screen */
 "Enter Fingerstick Glucose" = "Enter Fingerstick Glucose";
+
+/* The placeholder text instructing users to enter a glucose safety limit */
+"Enter glucose safety limit" = "Enter glucose safety limit";
 
 /* The placeholder text instructing users to enter a suspend treshold */
 "Enter suspend threshold" = "输入暂停阈值";
@@ -434,6 +469,9 @@
 /* The title of the cell indicating the pump is suspended */
 "Insulin Suspended" = "Insulin Suspended";
 
+/* Alert title when the adverse event report URL cannot be constructed properly. */
+"Invalid Adverse Event Report URL" = "Invalid Adverse Event Report URL";
+
 /* The error message when invalid data was encountered. (1: details of invalid data) */
 "Invalid data: %1$@" = "无效数据: %1$@";
 
@@ -503,13 +541,17 @@
 /* Alert title for a missing pump error */
 "No Pump Configured" = "No Pump Configured";
 
+/* The title of the cell indicating that there is no recent glucose */
+"No Recent Glucose" = "No Recent Glucose";
+
 /* Title for bolus screen notice when glucose data is missing or stale */
 "No Recent Glucose Data" = "No Recent Glucose Data";
 
 /* Title for bolus screen notice when pump data is missing or stale */
 "No Recent Pump Data" = "No Recent Pump Data";
 
-/* The title of the notification action to acknowledge a device alert */
+/* Alert acknowledgment OK button
+   The title of the notification action to acknowledge a device alert */
 "OK" = "OK";
 
 /* The title text for the override presets */
@@ -520,6 +562,9 @@
 
 /* Message when offering bolus recommendation even though bg is below range and minBG is in future. (1: glucose time)(2: glucose number) */
 "Predicted glucose at %1$@ is %2$@." = "预测%1$@时的葡萄糖是%2$@";
+
+/* Notice message when recommending bolus when BG is below the glucose safety limit. (1: glucose value) */
+"Predicted glucose of %1$@ is below your glucose safety limit setting." = "Predicted glucose of %1$@ is below your glucose safety limit setting.";
 
 /* Notice message when recommending bolus when BG is below the suspend threshold. (1: glucose value) */
 "Predicted glucose of %1$@ is below your suspend threshold setting." = "预测葡萄糖%1$@低于您的暂停阈值设置";
@@ -569,7 +614,8 @@
 /* The title of the cell displaying a recommended temp basal value */
 "Recommended Basal" = "推荐基础率";
 
-/* Label for recommended bolus row on bolus screen */
+/* Label for recommended bolus row on bolus screen
+   Label for recommended bolus row on simple bolus screen */
 "Recommended Bolus" = "Recommended Bolus";
 
 /* Accessibility hint describing recommended bolus units */
@@ -598,6 +644,12 @@
 
 /* Loop Completion HUD accessibility hint */
 "Shows last loop error" = "显示Loop上一次的错误";
+
+/* Title of simple bolus view when not displaying meal entry */
+"Simple Bolus Calculator" = "Simple Bolus Calculator";
+
+/* Title of simple bolus view when displaying meal entry */
+"Simple Meal Calculator" = "Simple Meal Calculator";
 
 /* Format fragment for a start time */
 "since %@" = "自从%@分钟前";
@@ -629,11 +681,17 @@
 /* The descriptive text of the add service button in settings */
 "Tap here to set up a Service" = "Tap here to set up a Service";
 
+/* The subtitle of the cell displaying an action to add a manually measurement glucose value */
+"Tap to Add" = "Tap to Add";
+
 /* The subtitle of the cell displaying an action to resume insulin delivery */
 "Tap to Resume" = "点击恢复输注";
 
 /* Message presented in the status row instructing the user to tap this row to stop a bolus */
 "Tap to Stop" = "Tap to Stop";
+
+/* Alert message when the adverse event report URL cannot be constructed properly. */
+"The adverse event report URL could not be constructed properly." = "The adverse event report URL could not be constructed properly.";
 
 /* Alert message for an updated bolus recommendation */
 "The bolus recommendation has updated. Please reconfirm the bolus amount." = "The bolus recommendation has updated. Please reconfirm the bolus amount.";
@@ -641,17 +699,29 @@
 /* Subtitle description of Walsh insulin model setting */
 "The legacy model used by Loop, allowing customization of action duration." = "Loop使用的默认模型参数，您可以自行修改胰岛素代谢时间。";
 
+/* Alert body displayed for quantity greater than max (1: maximum quantity in grams) */
+"The maximum allowed amount is %1$@ grams" = "The maximum allowed amount is %1$@ grams";
+
 /* Alert message for a maximum bolus validation error (1: max bolus value) */
 "The maximum bolus amount is %@ U." = "The maximum bolus amount is %@ U.";
 
 /* Body of the alert describing a maximum bolus validation error. (1: The localized max bolus value) */
 "The maximum bolus amount is %@ Units" = "大剂量输注最大限制为%@单位";
 
+/* Format string for maximum bolus exceeded alert (1: maximumBolusAmount) */
+"The maximum bolus amount is %1$@ U." = "The maximum bolus amount is %1$@ U.";
+
 /* Alert message for a missing maximum bolus setting error */
 "The maximum bolus setting must be configured before a bolus can be delivered." = "The maximum bolus setting must be configured before a bolus can be delivered.";
 
 /* Title text for button to Therapy Settings */
 "Therapy Settings" = "Therapy Settings";
+
+/* Title of the carb entry date picker cell */
+"Time" = "Time";
+
+/* Time change alert title */
+"Time Change Detected" = "Time Change Detected";
 
 /* Critical event log export error alert try again button */
 "Try Again" = "Try Again";
@@ -677,23 +747,53 @@
 /* The format for the description of a temporary override end date */
 "until %@" = "直到 %@";
 
+/* The title of a target alert action specifying pre-meal targets duration for 1 hour or until the user enters carbs (whichever comes first). */
+"Until I enter carbs" = "Until I enter carbs";
+
+/* The title of a target alert action specifying workout targets duration until it is turned off by the user */
+"Until I turn off" = "Until I turn off";
+
+/* The title of the alert controller used to select a duration for pre-meal targets */
+"Use Pre-Meal Preset" = "Use Pre-Meal Preset";
+
 /* The title of the alert controller used to select a duration for workout targets */
 "Use Workout Glucose Targets" = "使用运动状态的血糖目标";
+
+/* The title of the alert controller used to select a duration for workout targets */
+"Use Workout Preset" = "Use Workout Preset";
 
 /* Title of insulin model setting */
 "Walsh" = "Walsh";
 
+/* Explanation of glucose safety limit */
+"When current or forecasted glucose is below the glucose safety limit, Loop will not recommend a bolus, and will always recommend a temporary basal rate of 0 units per hour." = "When current or forecasted glucose is below the glucose safety limit, Loop will not recommend a bolus, and will always recommend a temporary basal rate of 0 units per hour.";
+
 /* Explanation of suspend threshold */
 "When current or forecasted glucose is below the suspend threshold, Loop will not recommend a bolus, and will always recommend a temporary basal rate of 0 units per hour." = "当前或预测的葡萄糖低于暂停阈值时，Loop不推荐推注，并且总是建议每小时0单位的临时基础速率。";
+
+/* No comment provided by engineer. */
+"When out of Closed Loop mode, the app uses a simplified bolus calculator like a typical pump." = "When out of Closed Loop mode, the app uses a simplified bolus calculator like a typical pump.";
 
 /* The label of the workout mode toggle button */
 "Workout Targets" = "运动模式血糖目标";
 
-/* Caption for bolus screen notice when no bolus is recommended due to prediction dropping below suspend threshold */
-"Your glucose is below or predicted to go below your suspend threshold, %@." = "Your glucose is below or predicted to go below your suspend threshold, %@.";
+/* Workout override still on reminder alert body. */
+"Workout Temp Adjust has been turned on for more than 24 hours. Make sure you still want it enabled, or turn it off in the app." = "Workout Temp Adjust has been turned on for more than 24 hours. Make sure you still want it enabled, or turn it off in the app.";
+
+/* Workout override still on reminder alert title */
+"Workout Temp Adjust Still On" = "Workout Temp Adjust Still On";
+
+/* Caption for bolus screen notice when no bolus is recommended due to prediction dropping below glucose safety limit */
+"Your glucose is below or predicted to go below your glucose safety limit, %@." = "Your glucose is below or predicted to go below your glucose safety limit, %@.";
+
+/* Format string for bolus screen notice when no bolus is recommended due input value below glucose safety limit. (1: suspendThreshold) */
+"Your glucose is below your glucose safety limit, %1$@." = "Your glucose is below your glucose safety limit, %1$@.";
 
 /* Warning to ensure the carb entry is accurate */
 "Your glucose is rapidly rising. Check that any carbs you've eaten were logged. If you logged carbs, check that the time you entered lines up with when you started eating." = "Your glucose is rapidly rising. Check that any carbs you've eaten were logged. If you logged carbs, check that the time you entered lines up with when you started eating.";
+
+/* Time change alert body. (1: app name) */
+"Your phone’s time has been changed. %1$@ needs accurate time records to make predictions about your glucose and adjust your insulin accordingly.\n\nCheck in your iPhone Settings (General / Date & Time) and verify that Set Automatically is enabled. Failure to resolve could lead to serious under-delivery or over-delivery of insulin." = "Your phone’s time has been changed. %1$@ needs accurate time records to make predictions about your glucose and adjust your insulin accordingly.\n\nCheck in your iPhone Settings (General / Date & Time) and verify that Set Automatically is enabled. Failure to resolve could lead to serious under-delivery or over-delivery of insulin.";
 
 /* Caption for bolus screen notice when pump data is missing or stale */
 "Your pump data is stale. Loop cannot recommend a bolus amount." = "Your pump data is stale. Loop cannot recommend a bolus amount.";

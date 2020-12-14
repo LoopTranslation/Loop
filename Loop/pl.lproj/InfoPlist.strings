@@ -22,3 +22,6 @@
 /* Privacy - Health Update Usage Description */
 "NSHealthUpdateUsageDescription" = "Posiłek węglowodanowy wprowadzony w aplikacji i na zegarku oraz dane o poziomie cukru pobrane z ciągłego monitoringu glukozy są bezpiecznie przechowywane w aplikacji Zdrowie.";
 
+/* Privacy - Siri Usage Description */
+"NSSiriUsageDescription" = "Loop uses Siri to allow you to set override presets with your voice.";
+

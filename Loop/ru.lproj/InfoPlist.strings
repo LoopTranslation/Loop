@@ -22,3 +22,6 @@
 /* Privacy - Health Update Usage Description */
 "NSHealthUpdateUsageDescription" = "Данные об углеводах в приложении и на смарт-часах хранятся в базе данных Здоровье. Данные о гликемии полученные от систем непрерывного мониторинга хранятся в безопасности в Комплексе Здоровья HealthKit ";
 
+/* Privacy - Siri Usage Description */
+"NSSiriUsageDescription" = "Loop uses Siri to allow you to set override presets with your voice.";
+

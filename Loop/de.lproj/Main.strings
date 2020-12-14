@@ -74,7 +74,7 @@
 "Rse-x8-amW.text" = "voraussichtlich 92 mg/dL";
 
 /* Class = "UILabel"; text = "g Active Carbs"; ObjectID = "SQx-au-ZcM"; */
-"SQx-au-ZcM.text" = "g KaB";
+"SQx-au-ZcM.text" = "g Active Carbs";
 
 /* Class = "UILabel"; text = "Glucose"; ObjectID = "tuw-av-A3x"; */
 "tuw-av-A3x.text" = "Blutzucker";

@@ -1,3 +1,18 @@
+/* Red loop message (1: app name) (2: app name) */
+"\n%1$@ has not completed a loop successfully in over 15 minutes.\n\nTap your CGM and insulin pump status icons for more information. %1$@ will continue trying to complete a loop, but check for potential communication issues with your pump and CGM." = "\n%1$@ has not completed a loop successfully in over 15 minutes.\n\nTap your CGM and insulin pump status icons for more information. %1$@ will continue trying to complete a loop, but check for potential communication issues with your pump and CGM.";
+
+/* Yellow loop message (1: app name) (2: app name) */
+"\n%1$@ has not completed a loop successfully in the past 5-15 minutes.\n\nTap your CGM and insulin pump status icons for more information. %2$@ will continue trying to complete a loop, but watch for potential communication issues with your pump and CGM." = "\n%1$@ has not completed a loop successfully in the past 5-15 minutes.\n\nTap your CGM and insulin pump status icons for more information. %2$@ will continue trying to complete a loop, but watch for potential communication issues with your pump and CGM.";
+
+/* Green closed loop OFF message (1: app name) */
+"\n%1$@ is operating with Closed Loop in the OFF position. Your pump and CGM will continue operating, but your basal insulin will not adjust automatically.\n\nTap Settings to toggle Closed Loop ON if you wish for the app to automate your insulin." = "\n%1$@ is operating with Closed Loop in the OFF position. Your pump and CGM will continue operating, but your basal insulin will not adjust automatically.\n\nTap Settings to toggle Closed Loop ON if you wish for the app to automate your insulin.";
+
+/* Green closed loop ON message (1: app name) */
+"\n%1$@ is operating with Closed Loop in the ON position. Your last loop was successful within the last 5 minutes." = "\n%1$@ is operating with Closed Loop in the ON position. Your last loop was successful within the last 5 minutes.";
+
+/* No glucose value representation (3 dashes for mg/dL) */
+"– – –" = "– – –";
+
 /* Format string describing the time interval since the last completion date. (1: The localized date components */
 "%@ ago" = "%@ geleden";
 
@@ -10,11 +25,20 @@
 /* Accessibility format string describing the basal rate. (1: localized basal rate value)(2: last updated time) */
 "%1$@ units per hour at %2$@" = "%1$@ eenheden per uur op %2$@";
 
+/* The format string for the app name and version number. (1: bundle name)(2: bundle version) */
+"%1$@ v%2$@" = "%1$@ v%2$@";
+
 /* Format string describing glucose units per minute (1: glucose unit string) */
 "%1$@/min" = "%1$@/min";
 
 /* Accessibility hint describing completion HUD for a closed loop */
 "Closed loop" = "Gesloten loop";
+
+/* Title of green open loop OFF message */
+"Closed Loop OFF" = "Closed Loop OFF";
+
+/* Title of green closed loop ON message */
+"Closed Loop ON" = "Closed Loop ON";
 
 /* The short unit display string for decibles */
 "dB" = "dB";
@@ -24,6 +48,10 @@
 
 /* String displayed instead of a glucose value above the CGM range */
 "HIGH" = "HOOG";
+
+/* Title of red loop message
+   Title of yellow loop message */
+"Loop Failure" = "Loop Failure";
 
 /* Accessbility format label describing the time interval since the last completion date. (1: The localized date components) */
 "Loop ran %@ ago" = "Loop heeft %@ geleden gedraaid";

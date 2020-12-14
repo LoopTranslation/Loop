@@ -22,3 +22,6 @@
 /* Privacy - Health Update Usage Description */
 "NSHealthUpdateUsageDescription" = "Sovellukseen ja kelloon syötetyt hiilihydraattiateriatiedot tallennetaan Terveystietokantaan. Jatkuvan glukoosiseurannan tiedot tallennetaan turvallisesti HealthKitiin.";
 
+/* Privacy - Siri Usage Description */
+"NSSiriUsageDescription" = "Loop uses Siri to allow you to set override presets with your voice.";
+

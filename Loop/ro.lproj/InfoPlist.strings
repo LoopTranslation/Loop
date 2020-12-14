@@ -22,3 +22,6 @@
 /* Privacy - Health Update Usage Description */
 "NSHealthUpdateUsageDescription" = "Carbohidrații introduși în aplicație și pe ceas sunt stocați în baza de date Sănătate. Glicemiile din GCM sunt stocate în mod confidențial în HealthKit.";
 
+/* Privacy - Siri Usage Description */
+"NSSiriUsageDescription" = "Loop uses Siri to allow you to set override presets with your voice.";
+

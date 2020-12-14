@@ -44,7 +44,7 @@
 "hZZ-2S-lrd.title" = "Kulhydrat effekt";
 
 /* Class = "UILabel"; text = "Observed changes in glucose, subtracting changes modeled from insulin delivery, can be used to estimate carbohydrate absorption."; ObjectID = "IxU-As-glo"; */
-"IxU-As-glo.text" = "Observerede ændringer i blodsukker, fratrukket ændringer modelleret fra insulin levering, kan bruges til at vurdere kulhydrat absorption.";
+"IxU-As-glo.text" = "Observeret ændringer i blodsukker, fratrukket ændringer modelleret fra insulin afgivelse, kan bruges til at vurdere kulhydrat absorption.";
 
 /* Class = "UILabel"; text = "Detail"; ObjectID = "J7x-W5-gwo"; */
 "J7x-W5-gwo.text" = "Detalje";

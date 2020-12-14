@@ -22,3 +22,6 @@
 /* Privacy - Health Update Usage Description */
 "NSHealthUpdateUsageDescription" = "Kulhydrater indtastet i Loop og på uret gemmes i Apple Sundhedsdatabasen. Blodsukkerdata hentet fra CGM gemmes sikkert i SundhedsKit.";
 
+/* Privacy - Siri Usage Description */
+"NSSiriUsageDescription" = "Loop bruger Siri til at give dig mulighed for at sætte override med din stemme.";
+

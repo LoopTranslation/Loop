@@ -22,3 +22,6 @@
 /* Privacy - Health Update Usage Description */
 "NSHealthUpdateUsageDescription" = "Die in der App und auf der Uhr eingegebenen Kohlenhydratmengen werden in der Health-Datenbank gespeichert. Blutzuckerdaten, die vom CGM abgerufen werden, werden sicher in HealthKit gespeichert.";
 
+/* Privacy - Siri Usage Description */
+"NSSiriUsageDescription" = "Loop uses Siri to allow you to set override presets with your voice.";
+

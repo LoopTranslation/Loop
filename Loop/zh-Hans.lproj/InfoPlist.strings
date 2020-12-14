@@ -22,3 +22,6 @@
 /* Privacy - Health Update Usage Description */
 "NSHealthUpdateUsageDescription" = "在应用程序和手表中输入的碳水化合物膳食数据存储在健康数据库中。从CGM检索的葡萄糖数据安全地存储在HealthKit中。";
 
+/* Privacy - Siri Usage Description */
+"NSSiriUsageDescription" = "Loop uses Siri to allow you to set override presets with your voice.";
+

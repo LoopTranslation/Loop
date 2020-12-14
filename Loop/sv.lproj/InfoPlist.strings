@@ -22,3 +22,6 @@
 /* Privacy - Health Update Usage Description */
 "NSHealthUpdateUsageDescription" = "Kolhydratvärden inmatade i Watch-appen lagras i Apple Health-databasen. Blodglukosvärden mottagna från CGM lagras säkert i HealthKit.";
 
+/* Privacy - Siri Usage Description */
+"NSSiriUsageDescription" = "Loop använder Siri för att låta dig ställa in undantagsförval med rösten.";
+

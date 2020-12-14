@@ -74,7 +74,7 @@
 "Rse-x8-amW.text" = "в конечном итоге 92 мг/дл";
 
 /* Class = "UILabel"; text = "g Active Carbs"; ObjectID = "SQx-au-ZcM"; */
-"SQx-au-ZcM.text" = "г COB";
+"SQx-au-ZcM.text" = "g Active Carbs";
 
 /* Class = "UILabel"; text = "Glucose"; ObjectID = "tuw-av-A3x"; */
 "tuw-av-A3x.text" = "Гликемия";
