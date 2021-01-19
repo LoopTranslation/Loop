@@ -14,10 +14,10 @@
 "%1$@ v%2$@" = "%1$@ v%2$@";
 
 /* Widget label title describing the active carbs */
-"Active Carbs" = "Active Carbs";
+"Active Carbs" = "Glucides actifs";
 
 /* Widget label title describing the active insulin */
-"Active Insulin" = "Active Insulin";
+"Active Insulin" = "Insuline active";
 
 /* The short unit display string for decibles */
 "dB" = "dB";
@@ -29,7 +29,7 @@
 "g" = "g";
 
 /* The subtitle format describing units of active insulin. (1: localized insulin value description) */
-"IOB %1$@ U" = "IOB %1$@ U";
+"IOB %1$@ U" = "IOB (insuline active) %1$@ U";
 
 /* The short unit display string for milligrams of glucose per decilter */
 "mg/dL" = "mg/dL";

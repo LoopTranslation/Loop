@@ -1,14 +1,14 @@
 /* Red loop message (1: app name) (2: app name) */
-"\n%1$@ has not completed a loop successfully in over 15 minutes.\n\nTap your CGM and insulin pump status icons for more information. %1$@ will continue trying to complete a loop, but check for potential communication issues with your pump and CGM." = "\n%1$@ has not completed a loop successfully in over 15 minutes.\n\nTap your CGM and insulin pump status icons for more information. %1$@ will continue trying to complete a loop, but check for potential communication issues with your pump and CGM.";
+"\n%1$@ has not completed a loop successfully in over 15 minutes.\n\nTap your CGM and insulin pump status icons for more information. %1$@ will continue trying to complete a loop, but check for potential communication issues with your pump and CGM." = "\n%1$@ n’a pas correctement terminé une boucle avec succès depuis plus de 15 minutes.\n\nappuyez sur vos icônes d’état CGM et pompe à insuline pour plus d’informations. %1$@ continuera d’essayer de compléter une boucle, mais vérifiez les problèmes de communication potentiels avec votre pompe et CGM.";
 
 /* Yellow loop message (1: app name) (2: app name) */
-"\n%1$@ has not completed a loop successfully in the past 5-15 minutes.\n\nTap your CGM and insulin pump status icons for more information. %2$@ will continue trying to complete a loop, but watch for potential communication issues with your pump and CGM." = "\n%1$@ has not completed a loop successfully in the past 5-15 minutes.\n\nTap your CGM and insulin pump status icons for more information. %2$@ will continue trying to complete a loop, but watch for potential communication issues with your pump and CGM.";
+"\n%1$@ has not completed a loop successfully in the past 5-15 minutes.\n\nTap your CGM and insulin pump status icons for more information. %2$@ will continue trying to complete a loop, but watch for potential communication issues with your pump and CGM." = "\n%1$@ n’a pas correctement terminé une boucle avec succès entre les 5 à 15 dernières minutes.\n\nAppuyez sur vos icônes d’état CGM et pompe à insuline pour plus d’informations. %2$@ continuera d’essayer de compléter une boucle, mais vérifiez les problèmes de communication potentiels avec votre pompe et CGM.";
 
 /* Green closed loop OFF message (1: app name) */
-"\n%1$@ is operating with Closed Loop in the OFF position. Your pump and CGM will continue operating, but your basal insulin will not adjust automatically.\n\nTap Settings to toggle Closed Loop ON if you wish for the app to automate your insulin." = "\n%1$@ is operating with Closed Loop in the OFF position. Your pump and CGM will continue operating, but your basal insulin will not adjust automatically.\n\nTap Settings to toggle Closed Loop ON if you wish for the app to automate your insulin.";
+"\n%1$@ is operating with Closed Loop in the OFF position. Your pump and CGM will continue operating, but your basal insulin will not adjust automatically.\n\nTap Settings to toggle Closed Loop ON if you wish for the app to automate your insulin." = "\n%1$@ fonctionne en mode \"Boucle ouverte\". Votre pompe et votre MGC continueront à fonctionner, mais votre debit basal ne s'ajustera pas dynamiquement.\n\nAppuyez sur Paramètres pour activer/désactiver la boucle fermée si vous souhaitez que l'application automatise votre insuline.";
 
 /* Green closed loop ON message (1: app name) */
-"\n%1$@ is operating with Closed Loop in the ON position. Your last loop was successful within the last 5 minutes." = "\n%1$@ is operating with Closed Loop in the ON position. Your last loop was successful within the last 5 minutes.";
+"\n%1$@ is operating with Closed Loop in the ON position. Your last loop was successful within the last 5 minutes." = "\n%1$@ fonctionne en mode \"Boucle fermée\". Votre dernière boucle réussie s'est correctement effectuée au cours des 5 dernières minutes.";
 
 /* No glucose value representation (3 dashes for mg/dL) */
 "– – –" = "– – –";
@@ -32,13 +32,13 @@
 "%1$@/min" = "%1$@/min";
 
 /* Accessibility hint describing completion HUD for a closed loop */
-"Closed loop" = "Loop fermée";
+"Closed loop" = "Boucle fermée";
 
 /* Title of green open loop OFF message */
-"Closed Loop OFF" = "Closed Loop OFF";
+"Closed Loop OFF" = "Boucle Ouverte";
 
 /* Title of green closed loop ON message */
-"Closed Loop ON" = "Closed Loop ON";
+"Closed Loop ON" = "Boucle Fermée";
 
 /* The short unit display string for decibles */
 "dB" = "dB";
@@ -47,17 +47,17 @@
 "g" = "g";
 
 /* String displayed instead of a glucose value above the CGM range */
-"HIGH" = "HIGH";
+"HIGH" = "HAUT";
 
 /* Title of red loop message
    Title of yellow loop message */
-"Loop Failure" = "Loop Failure";
+"Loop Failure" = "Défaillance de la boucle";
 
 /* Accessbility format label describing the time interval since the last completion date. (1: The localized date components) */
 "Loop ran %@ ago" = "Loop a roulé il y a %@";
 
 /* String displayed instead of a glucose value below the CGM range */
-"LOW" = "LOW";
+"LOW" = "BAS";
 
 /* The short unit display string for milligrams of glucose per decilter */
 "mg/dL" = "mg/dL";

@@ -270,10 +270,10 @@
 "Closed Loop" = "Sluten loop";
 
 /* Alert title for closed loop off informational modal */
-"Closed Loop OFF" = "Stängd Loop är av";
+"Closed Loop OFF" = "Sluten Loop är av";
 
 /* The description text for the looping enabled switch cell when closed loop is not allowed */
-"Closed Loop requires an active CGM Sensor Session" = "Stängd Loop kräver en aktiv CGM-sensorsession";
+"Closed Loop requires an active CGM Sensor Session" = "Sluten Loop kräver en aktiv CGM-sensor";
 
 /* The title of the action used to dismiss an error alert */
 "com.loudnate.LoopKit.errorAlertActionTitle" = "OK";
@@ -649,7 +649,7 @@
 "Simple Bolus Calculator" = "Förenklad bolusdoskalkylator";
 
 /* Title of simple bolus view when displaying meal entry */
-"Simple Meal Calculator" = "Simple Meal Calculator";
+"Simple Meal Calculator" = "Förenklad bolusdoskalkylator";
 
 /* Format fragment for a start time */
 "since %@" = "sedan %@";

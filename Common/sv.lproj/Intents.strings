@@ -1,5 +1,5 @@
 /* (No Comment) */
-"9KhaIS" = "Förinställning är inställd";
+"9KhaIS" = "Förval är inställd";
 
 /* (No Comment) */
 "80eo5o" = "Lägg till kolhydrater";
@@ -11,19 +11,19 @@
 "I4OZy8" = "Aktivera undantagsförinställning";
 
 /* (No Comment) */
-"lYMuWV" = "Namn på förinställning";
+"lYMuWV" = "Namn på undantag";
 
 /* (No Comment) */
-"nDKAmn" = "Vilket namn på förinställningen vill du ha?";
+"nDKAmn" = "Vilket namn på undantaget vill du ha?";
 
 /* (No Comment) */
 "OcNxIj" = "Lägg till kolhydrater";
 
 /* (No Comment) */
-"oLQSsJ" = "Aktivera '${overrideName}' undantagsförinställning";
+"oLQSsJ" = "Aktivera '${overrideName}' undantagsförval";
 
 /* (No Comment) */
-"XNNmtH" = "Aktivera förinställning i Loop";
+"XNNmtH" = "Aktivera förval i Loop";
 
 /* (No Comment) */
 "yBzwCL" = "Val av undantag";
@@ -32,5 +32,5 @@
 "yc02Yq" = "Lägg till kolhydrater för att kunna loopa";
 
 /* (No Comment) */
-"ZZ3mtM" = "Aktivera en undantagsförinställning i Loop";
+"ZZ3mtM" = "Aktivera ett undantagsförval i Loop";
 

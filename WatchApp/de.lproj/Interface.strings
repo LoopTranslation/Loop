@@ -17,7 +17,7 @@
 "fR1-7h-SNe.title" = "3 Stunden";
 
 /* Class = "WKInterfaceLabel"; text = "Carbs"; ObjectID = "hln-CI-MRP"; */
-"hln-CI-MRP.text" = "Carbs";
+"hln-CI-MRP.text" = "KH";
 
 /* Class = "WKInterfaceLabel"; text = "–"; ObjectID = "IRi-4t-ESO"; */
 "IRi-4t-ESO.text" = "–";
@@ -44,7 +44,7 @@
 "smL-Rc-IZh.text" = "Bolus";
 
 /* Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "T4U-wP-dSW"; */
-"T4U-wP-dSW.text" = "Label";
+"T4U-wP-dSW.text" = "Beschreibung";
 
 /* Class = "WKInterfaceLabel"; text = "🏃‍♀️"; ObjectID = "UVY-pa-SUL"; */
 "UVY-pa-SUL.text" = "🏃‍♀️";
@@ -65,5 +65,5 @@
 "yl8-ZP-c3l.text" = "– – –";
 
 /* Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "zO8-x6-bZd"; */
-"zO8-x6-bZd.text" = "Label";
+"zO8-x6-bZd.text" = "Beschreibung";
 

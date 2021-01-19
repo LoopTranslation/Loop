@@ -11,10 +11,10 @@
 "NSBluetoothPeripheralUsageDescription" = "Bluetooth wird verwendet, um mit Insulinpumpen und kontinuierlichen Blutzuckermessgeräten zu kommunizieren.";
 
 /* Privacy - Camera Usage Description */
-"NSCameraUsageDescription" = "Camera is used to scan barcodes of devices";
+"NSCameraUsageDescription" = "Kamera wird verwendet, um Barcodes von Geräten zu scannen";
 
 /* Privacy - Face ID Usage Description */
-"NSFaceIDUsageDescription" = "Face ID is used to authenticate insulin bolus and to save changes to therapy settings.";
+"NSFaceIDUsageDescription" = "Face ID wird verwendet, um Insulinbolus zu authentifizieren und Änderungen an den Therapieeinstellungen zu speichern.";
 
 /* Privacy - Health Share Usage Description */
 "NSHealthShareUsageDescription" = "Mahlzeit-Daten aus der HealthKit-Datenbank werden verwendet, um Blutzuckereffekte zu bestimmen. Blutzuckerdaten aus der HealthKit-Datenbank werden für die Grafik- und Impulsberechnung verwendet.";
@@ -23,5 +23,5 @@
 "NSHealthUpdateUsageDescription" = "Die in der App und auf der Uhr eingegebenen Kohlenhydratmengen werden in der Health-Datenbank gespeichert. Blutzuckerdaten, die vom CGM abgerufen werden, werden sicher in HealthKit gespeichert.";
 
 /* Privacy - Siri Usage Description */
-"NSSiriUsageDescription" = "Loop uses Siri to allow you to set override presets with your voice.";
+"NSSiriUsageDescription" = "Loop verwendet Siri, damit Sie Override-Voreinstellungen mit Ihrer Stimme festlegen können.";
 

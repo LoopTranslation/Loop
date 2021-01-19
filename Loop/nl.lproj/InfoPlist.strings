@@ -23,5 +23,5 @@
 "NSHealthUpdateUsageDescription" = "Koolhydraten van de maaltijd die worden ingevoerd in de app op de apple watch worden opgeslagen in de Gezondheid database. Glucose gegevens ontvangen van de CGM wordt veilig opgeslagen in Gezondheid.";
 
 /* Privacy - Siri Usage Description */
-"NSSiriUsageDescription" = "Loop uses Siri to allow you to set override presets with your voice.";
+"NSSiriUsageDescription" = "Loop gebruikt Siri om aangepaste programma's met je stem in te stellen.";
 

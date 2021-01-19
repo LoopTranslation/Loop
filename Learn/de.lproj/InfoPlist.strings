@@ -1,6 +1,6 @@
 /* Bundle name */
-"CFBundleName" = "Learn";
+"CFBundleName" = "Lerne";
 
 /* Privacy - Health Share Usage Description */
-"NSHealthShareUsageDescription" = "Meal data from the Health database is used to determine glucose effects. Glucose data from the Health database is used for graphing and momentum calculation. Sleep data from the Health database is used to optimize delivery of Apple Watch complication updates during the time you are awake.";
+"NSHealthShareUsageDescription" = "Mahlzeitendaten aus der Health Datenbank werden verwendet, um die Glukoseeffekte zu bestimmen. Glukosedaten aus der Health Datenbank werden zur grafischen Darstellung und Impulsberechnung verwendet. Schlafdaten aus der Health-Datenbank werden verwendet, um die Bereitstellung von Apple Watch-Komplikationsupdates während Ihrer Wachzeit zu optimieren.";
 

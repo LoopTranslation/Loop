@@ -5,10 +5,10 @@
 "Add Carb Entry" = "KH-Eintrag hinzufügen";
 
 /* Lesson subtitle */
-"Computes the percentage of glucose measurements within a specified range" = "Computes the percentage of glucose measurements within a specified range";
+"Computes the percentage of glucose measurements within a specified range" = "Berechnet den Prozentsatz der Glukosemessungen innerhalb eines bestimmten Bereichs";
 
 /* Title of the button to begin lesson execution */
-"Continue" = "Continue";
+"Continue" = "Weiter";
 
 /* The short unit display string for decibles */
 "dB" = "dB";
@@ -29,29 +29,29 @@
 "mmol/L" = "mmol/L";
 
 /* Lesson title */
-"Modal Day" = "Modal Day";
+"Modal Day" = "Modaler Tag";
 
 /* Lesson result text for no data */
-"No data available" = "No data available";
+"No data available" = "Keine Daten vorhanden";
 
 /* Format string for combining localized numeric value and unit. (1: numeric value)(2: unit) */
 "QUANTITY_VALUE_AND_UNIT" = "%1$@ %2$@";
 
 /* Section title for glucose range */
-"Range" = "Range";
+"Range" = "Bereich";
 
 /* Title of config entry */
-"Start Date" = "Start Date";
+"Start Date" = "Startdatum";
 
 /* Lesson title */
-"Time in Range" = "Time in Range";
+"Time in Range" = "Zeit im Zielbereich";
 
 /* The short unit display string for international units of insulin */
 "U" = "IE";
 
 /* Lesson subtitle */
-"Visualizes the most frequent glucose values by time of day" = "Visualizes the most frequent glucose values by time of day";
+"Visualizes the most frequent glucose values by time of day" = "Visualisiert die häufigsten Glukosewerte nach Tageszeit";
 
 /* Unit string for a count of calendar weeks */
-"Weeks" = "Weeks";
+"Weeks" = "Wochen";
 

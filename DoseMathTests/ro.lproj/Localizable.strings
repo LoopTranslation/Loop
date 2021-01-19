@@ -17,7 +17,7 @@
 "Predicted glucose at %1$@ is %2$@." = "Glicemia estimată la %1$@ este %2$@.";
 
 /* Notice message when recommending bolus when BG is below the glucose safety limit. (1: glucose value) */
-"Predicted glucose of %1$@ is below your glucose safety limit setting." = "Predicted glucose of %1$@ is below your glucose safety limit setting.";
+"Predicted glucose of %1$@ is below your glucose safety limit setting." = "Glicemia prognozată de %1$@ se situează sub limita de siguranță configurată.";
 
 /* Notice message when recommending bolus when BG is below the suspend threshold. (1: glucose value) */
 "Predicted glucose of %1$@ is below your suspend threshold setting." = "Glicemia estimată de %1$@ este sub limita de suspendare.";

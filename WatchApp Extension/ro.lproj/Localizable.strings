@@ -90,7 +90,7 @@
 "Rec: %@ U" = "Rec: %@ U";
 
 /* Indicator that recommended bolus computation is in progress on Apple Watch */
-"REC: Calculating..." = "Se calculează...";
+"REC: Calculating..." = "REC: Se calculează...";
 
 /* HUD row title for remaining reservoir volume */
 "Reservoir Volume" = "Volum rezervor";
@@ -118,5 +118,5 @@
 "Unable to Reach iPhone" = "Nu se poate conecta la iPhone";
 
 /* The text for the Watch button for enabling workout mode */
-"Workout" = "Exercitiu fizic";
+"Workout" = "Activitate sportivă";
 
