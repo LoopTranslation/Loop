@@ -5,7 +5,7 @@
 "Add Carb Entry" = "Legg til karbohydrater";
 
 /* Lesson subtitle */
-"Computes the percentage of glucose measurements within a specified range" = "Beregner prosentandelen av glukosemålinger innenfor et spesifisert område";
+"Computes the percentage of glucose measurements within a specified range" = "Beregner prosentandelen av blodsukkermålinger innenfor et spesifisert område";
 
 /* Title of the button to begin lesson execution */
 "Continue" = "Fortsett";
@@ -47,7 +47,7 @@
 "Time in Range" = "Tid i målområdet";
 
 /* The short unit display string for international units of insulin */
-"U" = "IE";
+"U" = "E";
 
 /* Lesson subtitle */
 "Visualizes the most frequent glucose values by time of day" = "Visualiser de nyeste blodsukkerverdier etter tid på døgnet";

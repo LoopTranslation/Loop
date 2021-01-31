@@ -58,6 +58,9 @@
 /* Message for alert shown when delivery status is uncertain. (1: app name) */
 "%1$@ is unable to communicate with your insulin pump. The app will continue trying to reach your pump, but insulin delivery information cannot be updated and no automation can continue.\nYou can wait several minutes to see if the issue resolves or tap the button below to learn more about other options." = "%1$@ kan ikke kommunisere med insulinpumpen. Appen vil prøve å få kontakt med pumpen, men informasjon om insulintilførsel blir ikke oppdatert, og automatisering kan ikke fortsette.\nDu kan vente for å se om problemet løser seg, eller trykk på knappen nedenfor for å lære mer om andre alternativer.";
 
+/* Reservoir entry (1: volume value) */
+"%1$@ U" = "%1$@ /E";
+
 /* Low reservoir alert format string. (1: Number of units remaining) */
 "%1$@ U left" = "%1$@ E gjenstår";
 
@@ -73,6 +76,10 @@
 /* Formats (1: carb value) and (2: food type) */
 "%1$@: %2$@" = "%1$@: %2$@";
 
+/* Description of a basal temp basal dose entry (1: title for dose type, 2: value (? if no value) in bold, 3: unit)
+   Description of a bolus dose entry (1: title for dose type, 2: value (? if no value) in bold, 3: unit) */
+"%1$@: <b>%2$@</b> %3$@" = "%1$@: <b>%2$@</b> %3$@";
+
 /* Description of the prediction input effect for glucose momentum */
 "15 min glucose regression coefficient (b₁), continued with decay over 30 min" = "15 minutters glukose-regresjonskoeffisient (b1), fortsatt med henfall over 30 minutter.";
 
@@ -86,7 +93,7 @@
 "A manual glucose entry must be between %@ and %@" = "Manuelle registreringer av glukose må være mellom %1$@ og %2$@";
 
 /* Alert message for a manual glucose entry out of range error. (1: acceptable lower bound) (2: acceptable upper bound) */
-"A manual glucose entry must be between %1$@ and %2$@" = "Manuelle registreringer av glukose må være mellom %1$@ og %2$@";
+"A manual glucose entry must be between %1$@ and %2$@" = "Manuelle registreringer av blodsukker må være mellom %1$@ og %2$@";
 
 /* Subtitle of Fiasp preset */
 "A model based on the published absorption of Fiasp insulin." = "En modell basert på publiserte data for absorpsjon av Fiasp insulin.";
@@ -166,6 +173,15 @@
 /* The title of the nightscout API secret credential */
 "API Secret" = "API kodeord";
 
+/* Action sheet confirmation message for pump history deletion */
+"Are you sure you want to delete all history entries?" = "Er du sikker på at du vil slette alle historiske innslag?";
+
+/* Action sheet confirmation message for logged dose deletion */
+"Are you sure you want to delete all logged dose entries?" = "Er du sikker på at du vil slette alle loggførte doseoppføringer?";
+
+/* Action sheet confirmation message for reservoir deletion */
+"Are you sure you want to delete all reservoir values?" = "Er du sikker på at du vil slette alle reservoarverdier?";
+
 /* No comment provided by engineer. */
 "Are you sure you want to delete all your %@ Data?\n(This action is not reversible)" = "Er du sikker på at du vil slette alle %@ data?\n(Denne handlingen er ikke reversibel)";
 
@@ -180,6 +196,9 @@
 
 /* The message displayed during a device authentication prompt for bolus specification */
 "Authenticate to Bolus %@ Units" = "Autentiser for å gi bolus %@ E";
+
+/* The message displayed during a device authentication prompt to log an insulin dose */
+"Authenticate to log %@ Units" = "Autentiser for å logge %@ enheter";
 
 /* Details for configuration error when basal rate schedule is missing */
 "Basal Rate Schedule" = "Basalrate program";
@@ -230,7 +249,7 @@
 "Carb Entry" = "Karbohydrater";
 
 /* Alert title for a carb entry too large error */
-"Carb Entry Too Large" = "Karbohydrat oppføring for stor";
+"Carb Entry Too Large" = "Karbohydrat oppføring er for stor";
 
 /* The title of the carb ratios schedule screen
    The title text for the carb ratio schedule */
@@ -261,7 +280,7 @@
 "Check that your pump is in range" = "Sjekk at pumpen er innen rekkevidde";
 
 /* Recovery suggestion when glucose data is missing */
-"Check your CGM data source" = "Sjekk blodsukkerkilde";
+"Check your CGM data source" = "Sjekk CGM datakilde";
 
 /* Carb entry section footer text explaining absorption time */
 "Choose a longer absorption time for larger meals, or those containing fats and proteins. This is only guidance to the algorithm and need not be exact." = "Velg en lengre absorpsjonstid for større måltider, eller de som inneholder fett og proteiner. Dette er bare en veiledning til algoritmen, og trenger ikke være helt nøyaktig.";
@@ -274,6 +293,12 @@
 
 /* The description text for the looping enabled switch cell when closed loop is not allowed */
 "Closed Loop requires an active CGM Sensor Session" = "Lukket Loop krever en aktiv CGM-sensorøkt";
+
+/* The format string describing the date of an IOB value. The first format argument is the localized date. */
+"com.loudnate.InsulinKit.IOBDateLabel" = "ved %1$@";
+
+/* The format string describing the starting date of a total value. The first format argument is the localized date. */
+"com.loudnate.InsulinKit.totalDateLabel" = "siden %1$@";
 
 /* The title of the action used to dismiss an error alert */
 "com.loudnate.LoopKit.errorAlertActionTitle" = "OK";
@@ -315,6 +340,9 @@
 /* The title of the Loggly customer token credential */
 "Customer Token" = "Kunde token";
 
+/* Date picker label */
+"Date" = "Dato";
+
 /* The short unit display string for decibles */
 "dB" = "dB";
 
@@ -323,6 +351,9 @@
 
 /* The title of the button to remove the credentials for a service */
 "Delete Account" = "Slett konto";
+
+/* Button title to delete all objects */
+"Delete All" = "Slett alle";
 
 /* Button title to delete CGM */
 "Delete CGM" = "Slett CGM";
@@ -359,8 +390,11 @@
 /* No comment provided by engineer. */
 "Done" = "Ferdig";
 
+/* Title for card to log dose */
+"Dose Summary" = "Dose sammendrag";
+
 /* Message to the user to enable bluetooth */
-"Enable\nBluetooth" = "Aktiver\nblåtann";
+"Enable\nBluetooth" = "Aktiver blåtann";
 
 /* The action hint of the workout mode toggle button when disabled */
 "Enables" = "Aktiverer";
@@ -381,13 +415,16 @@
 "Enter suspend threshold" = "Legg til grense for insulinstopp";
 
 /* The alert title for an error while canceling a bolus */
-"Error Canceling Bolus" = "Kunne ikke kansellere bolus";
+"Error Canceling Bolus" = "Feil ved annullering av Bolus";
 
 /* Critical event log export error alert title */
 "Error Exporting Logs" = "Feil ved eksport av logger";
 
 /* The alert title for a resume error */
 "Error Resuming" = "Kunne ikke gjenoppta";
+
+/* Segmented button title for insulin delivery log event history */
+"Event History" = "Hendelseshistorikk";
 
 /* The subtitle format describing eventual glucose. (1: localized glucose value description) */
 "Eventually %@" = "Omsider %@";
@@ -423,10 +460,10 @@
 "Get help with Notification & Critical Alert Permissions screen" = "Få hjelp med varsler & kritiske varseltillatelser";
 
 /* The title of the glucose and prediction graph */
-"Glucose" = "Glukose";
+"Glucose" = "Blodsukker";
 
 /* The error message when glucose data is too old to be used. (1: glucose data age in minutes) */
-"Glucose data is %1$@ old" = "Glukosedata er %1$@ gammel";
+"Glucose data is %1$@ old" = "Blodsukker data er %1$@ gammel";
 
 /* Description of error when glucose data is missing */
 "Glucose data not available" = "Glukose data er utilgjengelig";
@@ -469,6 +506,12 @@
 /* The title of the cell indicating the pump is suspended */
 "Insulin Suspended" = "Insulin pauset";
 
+/* Insulin type label */
+"Insulin Type" = "Insulin Type";
+
+/* Description of an interrupted bolus dose entry (1: title for dose type, 2: value (? if no value) in bold, 3: programmed value (? if no value), 4: unit) */
+"Interrupted %1$@: <b>%2$@</b> of %3$@ %4$@" = "Avbrutt %1$@: <b>%2$@</b> av %3$@ %4$@";
+
 /* Alert title when the adverse event report URL cannot be constructed properly. */
 "Invalid Adverse Event Report URL" = "Ugyldig URL for rapportering av uønskede hendelser";
 
@@ -489,6 +532,13 @@
 
 /* The loading message for the diagnostic report screen */
 "Loading..." = "Laster...";
+
+/* Button text to log a dose
+   Title for dose logging screen */
+"Log Dose" = "Logg Dose";
+
+/* The title of the screen displaying a logged insulin dose */
+"Logged Insulin Dose" = "Logget insulindose";
 
 /* The notification title for a loop failure */
 "Loop Failure" = "Loop feilet";
@@ -586,6 +636,9 @@
 
 /* The error message when pump data is too old to be used. (1: pump data age in minutes) */
 "Pump data is %1$@ old" = "Pumpedata er %1$@ gammelt";
+
+/* The title of the screen displaying a pump event */
+"Pump Event" = "Pumpehendelse";
 
 /* Details for configuration error when pump manager is missing */
 "Pump Manager" = "Pumpeinnstilling";
@@ -743,6 +796,9 @@
 
 /* The alert body for an error while canceling a bolus */
 "Unable to stop the bolus in progress. Move your iPhone closer to the pump and try again. Check your insulin delivery history for details, and monitor your glucose closely." = "Pågående bolus kan ikke stoppes. Flytt iPhone eller link nærmere pumpen, og prøv igjen. Sjekk historikken for insulinleveranser, og overvåk blodsukkeret nøye.";
+
+/* The default description to use when an entry has no dose description */
+"Unknown" = "Ukjent";
 
 /* The format for the description of a temporary override end date */
 "until %@" = "frem til %@";

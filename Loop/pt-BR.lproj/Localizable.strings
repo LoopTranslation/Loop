@@ -58,6 +58,9 @@
 /* Message for alert shown when delivery status is uncertain. (1: app name) */
 "%1$@ is unable to communicate with your insulin pump. The app will continue trying to reach your pump, but insulin delivery information cannot be updated and no automation can continue.\nYou can wait several minutes to see if the issue resolves or tap the button below to learn more about other options." = "%1$@ is unable to communicate with your insulin pump. The app will continue trying to reach your pump, but insulin delivery information cannot be updated and no automation can continue.\nYou can wait several minutes to see if the issue resolves or tap the button below to learn more about other options.";
 
+/* Reservoir entry (1: volume value) */
+"%1$@ U" = "%1$@ U";
+
 /* Low reservoir alert format string. (1: Number of units remaining) */
 "%1$@ U left" = "%1$@ U restante";
 
@@ -72,6 +75,10 @@
 
 /* Formats (1: carb value) and (2: food type) */
 "%1$@: %2$@" = "%1$@: %2$@";
+
+/* Description of a basal temp basal dose entry (1: title for dose type, 2: value (? if no value) in bold, 3: unit)
+   Description of a bolus dose entry (1: title for dose type, 2: value (? if no value) in bold, 3: unit) */
+"%1$@: <b>%2$@</b> %3$@" = "%1$@: <b>%2$@</b> %3$@";
 
 /* Description of the prediction input effect for glucose momentum */
 "15 min glucose regression coefficient (b₁), continued with decay over 30 min" = "15 min coeficiente de regressão de glicose (b₁), continuada com queda em 30 min.";
@@ -166,6 +173,15 @@
 /* The title of the nightscout API secret credential */
 "API Secret" = "API Secret";
 
+/* Action sheet confirmation message for pump history deletion */
+"Are you sure you want to delete all history entries?" = "Are you sure you want to delete all history entries?";
+
+/* Action sheet confirmation message for logged dose deletion */
+"Are you sure you want to delete all logged dose entries?" = "Are you sure you want to delete all logged dose entries?";
+
+/* Action sheet confirmation message for reservoir deletion */
+"Are you sure you want to delete all reservoir values?" = "Are you sure you want to delete all reservoir values?";
+
 /* No comment provided by engineer. */
 "Are you sure you want to delete all your %@ Data?\n(This action is not reversible)" = "Are you sure you want to delete all your %@ Data?\n(This action is not reversible)";
 
@@ -180,6 +196,9 @@
 
 /* The message displayed during a device authentication prompt for bolus specification */
 "Authenticate to Bolus %@ Units" = "Autentique para Bolus de %@ Unidades";
+
+/* The message displayed during a device authentication prompt to log an insulin dose */
+"Authenticate to log %@ Units" = "Authenticate to log %@ Units";
 
 /* Details for configuration error when basal rate schedule is missing */
 "Basal Rate Schedule" = "Programação da Taxa Basal";
@@ -275,6 +294,12 @@
 /* The description text for the looping enabled switch cell when closed loop is not allowed */
 "Closed Loop requires an active CGM Sensor Session" = "Closed Loop requires an active CGM Sensor Session";
 
+/* The format string describing the date of an IOB value. The first format argument is the localized date. */
+"com.loudnate.InsulinKit.IOBDateLabel" = "at %1$@";
+
+/* The format string describing the starting date of a total value. The first format argument is the localized date. */
+"com.loudnate.InsulinKit.totalDateLabel" = "since %1$@";
+
 /* The title of the action used to dismiss an error alert */
 "com.loudnate.LoopKit.errorAlertActionTitle" = "OK";
 
@@ -315,6 +340,9 @@
 /* The title of the Loggly customer token credential */
 "Customer Token" = "Token do Cliente";
 
+/* Date picker label */
+"Date" = "Date";
+
 /* The short unit display string for decibles */
 "dB" = "dB";
 
@@ -323,6 +351,9 @@
 
 /* The title of the button to remove the credentials for a service */
 "Delete Account" = "Delete Account";
+
+/* Button title to delete all objects */
+"Delete All" = "Delete All";
 
 /* Button title to delete CGM */
 "Delete CGM" = "Remover CGM";
@@ -359,6 +390,9 @@
 /* No comment provided by engineer. */
 "Done" = "Done";
 
+/* Title for card to log dose */
+"Dose Summary" = "Dose Summary";
+
 /* Message to the user to enable bluetooth */
 "Enable\nBluetooth" = "Enable\nBluetooth";
 
@@ -388,6 +422,9 @@
 
 /* The alert title for a resume error */
 "Error Resuming" = "Erro ao Retomar";
+
+/* Segmented button title for insulin delivery log event history */
+"Event History" = "Event History";
 
 /* The subtitle format describing eventual glucose. (1: localized glucose value description) */
 "Eventually %@" = "Eventualmente %@";
@@ -469,6 +506,12 @@
 /* The title of the cell indicating the pump is suspended */
 "Insulin Suspended" = "Insulin Suspended";
 
+/* Insulin type label */
+"Insulin Type" = "Insulin Type";
+
+/* Description of an interrupted bolus dose entry (1: title for dose type, 2: value (? if no value) in bold, 3: programmed value (? if no value), 4: unit) */
+"Interrupted %1$@: <b>%2$@</b> of %3$@ %4$@" = "Interrupted %1$@: <b>%2$@</b> of %3$@ %4$@";
+
 /* Alert title when the adverse event report URL cannot be constructed properly. */
 "Invalid Adverse Event Report URL" = "Invalid Adverse Event Report URL";
 
@@ -489,6 +532,13 @@
 
 /* The loading message for the diagnostic report screen */
 "Loading..." = "Carregando...";
+
+/* Button text to log a dose
+   Title for dose logging screen */
+"Log Dose" = "Log Dose";
+
+/* The title of the screen displaying a logged insulin dose */
+"Logged Insulin Dose" = "Logged Insulin Dose";
 
 /* The notification title for a loop failure */
 "Loop Failure" = "Falha no Loop";
@@ -586,6 +636,9 @@
 
 /* The error message when pump data is too old to be used. (1: pump data age in minutes) */
 "Pump data is %1$@ old" = "Dados da bomba são de %1$@ atrás";
+
+/* The title of the screen displaying a pump event */
+"Pump Event" = "Pump Event";
 
 /* Details for configuration error when pump manager is missing */
 "Pump Manager" = "Gerenciamento da Bomba";
@@ -743,6 +796,9 @@
 
 /* The alert body for an error while canceling a bolus */
 "Unable to stop the bolus in progress. Move your iPhone closer to the pump and try again. Check your insulin delivery history for details, and monitor your glucose closely." = "Unable to stop the bolus in progress. Move your iPhone closer to the pump and try again. Check your insulin delivery history for details, and monitor your glucose closely.";
+
+/* The default description to use when an entry has no dose description */
+"Unknown" = "Unknown";
 
 /* The format for the description of a temporary override end date */
 "until %@" = "até %@";
